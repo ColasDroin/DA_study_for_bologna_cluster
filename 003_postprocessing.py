@@ -17,8 +17,8 @@ start = time.time()
 
 # my_study='opt_flatvh_75_300_1500'
 # my_study='opt_flathv_75_1500_withBB_chroma15_octscan'
-my_study='opt_flathv_75_1500_withBB_chroma5_filling'
-# my_study = "opt_flathv_75_1500_withBB_chroma5_1p4"
+# my_study = "opt_flathv_75_1500_withBB_chroma5_filling"
+my_study = "opt_flathv_75_1500_withBB_chroma5_1p4"
 # my_study = "opt_flathv_75_1500_withBB_chroma15_1p4"
 # my_study='opt_flathv_75_1500_withBB_chroma15_octphi2'
 # my_study = "opt_flathv_75_1500_withBB_chroma15_1p4_all_bunches"
@@ -53,8 +53,11 @@ for node in root.generation(2):
             df["nb"] = node.parameters["beam_npart"]
             df["oct_current"] = node.parameters["oct_current"]
             df["on_x1"] = node.parameters["knob_settings"]["on_x1"]
+            df["chromaticity_x"] = node.parameters["chromaticity_x"]
+            df["chromaticity_y"] = node.parameters["chromaticity_y"]
             try:
                 df["bunch_nb"] = node.parameters["beambeam_config"]["bunch_to_track"]
+
             except:
                 df["bunch_nb"] = config_parent["beambeam_config"]["bunch_to_track"]
             df = pd.merge(df, particle, on=["particle_id"])
@@ -83,6 +86,8 @@ my_final = pd.DataFrame(
         aux.groupby("name 1")["on_x1"].mean(),
         aux.groupby("name 1")["oct_current"].mean(),
         aux.groupby("name 1")["bunch_nb"].mean(),
+        aux.groupby("name 1")["chromaticity_x"].mean(),
+        aux.groupby("name 1")["chromaticity_y"].mean(),
     ]
 ).transpose()
 my_final.to_parquet(f"{my_study}/da.parquet")
