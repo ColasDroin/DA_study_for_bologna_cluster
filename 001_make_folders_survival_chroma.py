@@ -42,7 +42,7 @@ bunch_nb = [
     2434,
 ]  # Moderate difference between chromas
 
-study_name = f"opt_flathv_75_1500_withBB_chroma5_1p4"  # f"opt_flathv_75_1500_withBB_chroma15_1p4"
+study_name = f"opt_flathv_75_1500_withBB_1p4_survival_chromas"
 
 children = {}
 children[study_name] = {}

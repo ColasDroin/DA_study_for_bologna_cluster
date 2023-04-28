@@ -155,19 +155,14 @@ class cluster:
 # %%
 # Load the tree from a yaml
 if __name__ == "__main__":
-    root = tree_maker.tree_from_json("tree_maker_opt_flathv_75_1500_withBB_chroma5_1p4.json")
+    root = tree_maker.tree_from_json(
+        "tree_maker_opt_flathv_75_1500_withBB_1p4_survival_chromas.json"
+    )
     # root = tree_maker.tree_from_json("tree_maker_opt_flathv_75_1500_withBB_chroma15_1p4.json")
     # root = tree_maker.tree_from_json('tree_maker_opt_flathv_75_1500_withBB_chroma15_1p4.json')
     # root = tree_maker.tree_from_json('tree_maker_opt_flathv_75_1500_withBB_chroma5_1p4_2116.json')
     # root = tree_maker.tree_from_json('tree_maker_opt_flathv_75_1500_withBB_chroma5_1p4_2116.json')
     # root = tree_maker.tree_from_json('tree_maker_opt_flathv_75_1500_withBB_chroma5_octphi2.json')
-    # root = tree_maker.tree_from_json("tree_maker_opt_flathv_75_1500_withBB_chroma15_footprint.json")
-    # root = tree_maker.tree_from_json(
-    #    "tree_maker_opt_flathv_75_1500_withBB_chroma15_1p4_all_bunches.json"
-    # )
-    # root = tree_maker.tree_from_json(
-    #     "tree_maker_opt_flathv_75_1500_withBB_chroma15_b1891_octscan.json"
-    # )
     if root.has_been("completed"):
         print("All descendants of root are completed!")
     else:
