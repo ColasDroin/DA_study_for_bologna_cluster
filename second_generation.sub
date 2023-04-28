@@ -1,0 +1,11 @@
+# Running on SLURM 
+sbatch --ntasks=2 --partition=slurm_hpc_acc --output=output.txt /gpfs/gpfs/gpfs_maestro_home_new/hpc/cdroin/DA_study/opt_flathv_75_1500_withBB_chroma5_1p4/madx_000/run.sh
+sbatch --ntasks=2 --partition=slurm_hpc_acc --output=output.txt /gpfs/gpfs/gpfs_maestro_home_new/hpc/cdroin/DA_study/opt_flathv_75_1500_withBB_chroma5_1p4/madx_001/run.sh
+sbatch --ntasks=2 --partition=slurm_hpc_acc --output=output.txt /gpfs/gpfs/gpfs_maestro_home_new/hpc/cdroin/DA_study/opt_flathv_75_1500_withBB_chroma5_1p4/madx_002/run.sh
+sbatch --ntasks=2 --partition=slurm_hpc_acc --output=output.txt /gpfs/gpfs/gpfs_maestro_home_new/hpc/cdroin/DA_study/opt_flathv_75_1500_withBB_chroma5_1p4/madx_003/run.sh
+sbatch --ntasks=2 --partition=slurm_hpc_acc --output=output.txt /gpfs/gpfs/gpfs_maestro_home_new/hpc/cdroin/DA_study/opt_flathv_75_1500_withBB_chroma5_1p4/madx_004/run.sh
+sbatch --ntasks=2 --partition=slurm_hpc_acc --output=output.txt /gpfs/gpfs/gpfs_maestro_home_new/hpc/cdroin/DA_study/opt_flathv_75_1500_withBB_chroma5_1p4/madx_005/run.sh
+sbatch --ntasks=2 --partition=slurm_hpc_acc --output=output.txt /gpfs/gpfs/gpfs_maestro_home_new/hpc/cdroin/DA_study/opt_flathv_75_1500_withBB_chroma5_1p4/madx_006/run.sh
+sbatch --ntasks=2 --partition=slurm_hpc_acc --output=output.txt /gpfs/gpfs/gpfs_maestro_home_new/hpc/cdroin/DA_study/opt_flathv_75_1500_withBB_chroma5_1p4/madx_007/run.sh
+sbatch --ntasks=2 --partition=slurm_hpc_acc --output=output.txt /gpfs/gpfs/gpfs_maestro_home_new/hpc/cdroin/DA_study/opt_flathv_75_1500_withBB_chroma5_1p4/madx_008/run.sh
+#slurm
