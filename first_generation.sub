@@ -1,2 +1,3 @@
 # Running on local pc
+bash /afs/cern.ch/work/c/cdroin/private/DA_study_for_bologna_cluster/opt_flathv_75_1500_withBB_1p4_survival_chromas_debug/run.sh &
 #local_pc

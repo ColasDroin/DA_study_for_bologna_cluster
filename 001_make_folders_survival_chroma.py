@@ -29,20 +29,20 @@ on_x1 = 250.0
 on_x8v = 170
 on_x8h = 0.0
 on_disp = 1
-chroma = [5, 15]
+chroma = [5]#, 15]
 bunch_nb = [
     525,
-    1132,
-    2272,  # Low difference between chromas
-    2622,
-    3009,
-    2996,  # High difference between chromas
-    252,
-    438,
-    2434,
+    # 1132,
+    # 2272,  # Low difference between chromas
+    # 2622,
+    # 3009,
+    # 2996,  # High difference between chromas
+    # 252,
+    # 438,
+    # 2434,
 ]  # Moderate difference between chromas
 
-study_name = f"opt_flathv_75_1500_withBB_1p4_survival_chromas"
+study_name = f"opt_flathv_75_1500_withBB_1p4_survival_chromas_debug"
 
 children = {}
 children[study_name] = {}
@@ -90,7 +90,7 @@ for optics_job, (
         "log_file": f"{os.getcwd()}/{study_name}/madx_{optics_job:03}/tree_maker.log",
         "children": optics_children,
     }
-    for track_job in range(50):
+    for track_job in range(100):
         optics_children[f"xsuite_{track_job:03}"] = {
             "particle_file": f"../../particles/{track_job:03}.parquet",
             "xline_json": "../xsuite_lines/line_bb_for_tracking.json",

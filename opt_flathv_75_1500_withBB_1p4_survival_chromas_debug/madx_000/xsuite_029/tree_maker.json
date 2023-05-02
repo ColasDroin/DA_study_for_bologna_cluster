@@ -1,0 +1,9 @@
+{
+  "name": "root",
+  "parameters": {
+    "log_file": "/afs/cern.ch/work/c/cdroin/private/DA_study_for_bologna_cluster/opt_flathv_75_1500_withBB_1p4_survival_chromas_debug/madx_000/xsuite_029/tree_maker.log",
+    "n_turns": 1000000,
+    "particle_file": "../../particles/029.parquet",
+    "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+  }
+}
