@@ -1,0 +1,9 @@
+{
+  "name": "root",
+  "parameters": {
+    "log_file": "/gpfs/gpfs/gpfs_maestro_home_new/hpc/cdroin/DA_study/opt_flathv_75_1500_withBB_1p4_survival_chromas/madx_006/xsuite_001/tree_maker.log",
+    "n_turns": 1000000,
+    "particle_file": "../../particles/001.parquet",
+    "xline_json": "../xsuite_lines/line_bb_for_tracking.json"
+  }
+}

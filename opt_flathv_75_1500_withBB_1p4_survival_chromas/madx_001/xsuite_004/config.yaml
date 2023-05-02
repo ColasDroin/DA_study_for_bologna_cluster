@@ -1,0 +1,15 @@
+# Description of the xline
+xline_json: ../xsuite_lines/line_bb_for_tracking.json
+
+# distribution in the normalized xy space
+particle_file: ../../particles/004.parquet
+
+# metric
+epsn_1: 2.5e-6           # normalised emittance x
+epsn_2: 2.5e-6           # normalised emittance y
+delta_max: 27.e-5        # initial off-momentum
+
+# tracking
+n_turns: 1000000         # number of turns to track
+
+log_file: /gpfs/gpfs/gpfs_maestro_home_new/hpc/cdroin/DA_study/opt_flathv_75_1500_withBB_1p4_survival_chromas/madx_001/xsuite_004/tree_maker.log

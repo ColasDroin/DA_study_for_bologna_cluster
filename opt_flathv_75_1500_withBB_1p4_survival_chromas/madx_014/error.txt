@@ -1,0 +1,29 @@
+rm: cannot remove ‘temp’: No such file or directory
+bash: customization.bash: No such file or directory
+rm: cannot remove ‘fc.*’: No such file or directory
+mv: ‘fc.2’ and ‘./fc.2’ are the same file
+mv: ‘fc.3’ and ‘./fc.3’ are the same file
+mv: ‘fc.34’ and ‘./fc.34’ are the same file
+mv: ‘fc.3.aux’ and ‘./fc.3.aux’ are the same file
+mv: ‘fc.8’ and ‘./fc.8’ are the same file
+5c24359d0cb64ed0a7baaa7d84d6a299.c:4355:0: warning: "_GNU_SOURCE" redefined [enabled by default]
+ #  define _GNU_SOURCE // enable GNU libc NAN extension if possible
+ ^
+In file included from 5c24359d0cb64ed0a7baaa7d84d6a299.c:50:0:
+/home/HPC/cdroin/DA_study/miniconda/include/python3.10/pyconfig.h:1621:0: note: this is the location of the previous definition
+ #define _GNU_SOURCE 1
+ ^
+cf270309906d4112b7408eedb2fe8229.c:3662:0: warning: "_GNU_SOURCE" redefined [enabled by default]
+ #  define _GNU_SOURCE // enable GNU libc NAN extension if possible
+ ^
+In file included from cf270309906d4112b7408eedb2fe8229.c:50:0:
+/home/HPC/cdroin/DA_study/miniconda/include/python3.10/pyconfig.h:1621:0: note: this is the location of the previous definition
+ #define _GNU_SOURCE 1
+ ^
+1c5525d3d3134508b4a9ee2919aaecbf.c:5658:0: warning: "_GNU_SOURCE" redefined [enabled by default]
+ #  define _GNU_SOURCE // enable GNU libc NAN extension if possible
+ ^
+In file included from 1c5525d3d3134508b4a9ee2919aaecbf.c:50:0:
+/home/HPC/cdroin/DA_study/miniconda/include/python3.10/pyconfig.h:1621:0: note: this is the location of the previous definition
+ #define _GNU_SOURCE 1
+ ^
