@@ -28,7 +28,7 @@ mode: b1_with_bb
 #       on_sep2: 0.14471680504084292
 
 # Optics file
-optics_file: optics_repository/flat/opt_flatvh_75_300_1500_thin.madx
+optics_file: optics_repository/flat/opt_flatvh_75_180_1500_thin.madx
 # Optics version
 optics_version: "1.5"
 
