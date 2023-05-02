@@ -3,7 +3,7 @@
   +     MAD-X 5.08.01  (64 bit, Linux)       +
   + Support: mad@cern.ch, http://cern.ch/mad +
   + Release   date: 2022.02.25               +
-  + Execution date: 2023.04.28 15:59:53      +
+  + Execution date: 2023.05.02 17:33:51      +
   ++++++++++++++++++++++++++++++++++++++++++++
 ! 2011 Stephane Fartoukh, macros for building ATS optics
 
@@ -10780,8 +10780,8 @@ dqmin_phase
 @ DQMIN_PHASE      %le  1.65244608287393
 @ TITLE            %08s "no-title"
 @ ORIGIN           %16s "5.08.01 Linux 64"
-@ DATE             %08s "28/04/23"
-@ TIME             %08s "16.00.18"
+@ DATE             %08s "02/05/23"
+@ TIME             %08s "17.34.14"
 * NAME               S BETX BETY ALFX ALFY DX DPX MUX MUY 
 $ %s                 %le %le %le %le %le %le %le %le %le 
  "IP5"               6664.5684327563 0.0749903196360376 0.179999999993823 7.6937458946446e-05 -2.24397404637876e-10 4.38320690726093e-05 -0.00107977466442246 14.9560145480647 14.5366304529184
@@ -10891,8 +10891,8 @@ dqmin_phase
 @ DQMIN_PHASE      %le  2.80719106538706
 @ TITLE            %08s "no-title"
 @ ORIGIN           %16s "5.08.01 Linux 64"
-@ DATE             %08s "28/04/23"
-@ TIME             %08s "16.00.20"
+@ DATE             %08s "02/05/23"
+@ TIME             %08s "17.34.17"
 * NAME               S BETX BETY ALFX ALFY DX DPX MUX MUY 
 $ %s                 %le %le %le %le %le %le %le %le %le 
  "IP5"               6664.8731672437 0.0749989802293465 0.180000000018718 -0.000106799606951811 2.32042789233553e-10 -0.000115145331445911 0.00273578185140835 15.2160133461898 14.4463565438519
@@ -11002,8 +11002,8 @@ dqmin_phase
 @ DQMIN_PHASE      %le  -0.719125937799284
 @ TITLE            %08s "no-title"
 @ ORIGIN           %16s "5.08.01 Linux 64"
-@ DATE             %08s "28/04/23"
-@ TIME             %08s "16.00.22"
+@ DATE             %08s "02/05/23"
+@ TIME             %08s "17.34.19"
 * NAME               S X Y PX PY 
 $ %s                 %le %le %le %le %le 
  "IP5"               6664.5684327563 -1.04898547846751e-07 3.295090090648e-09 6.4396103196012e-09 0.000250073183514608
@@ -11113,8 +11113,8 @@ dqmin_phase
 @ DQMIN_PHASE      %le  -1.3424968046984
 @ TITLE            %08s "no-title"
 @ ORIGIN           %16s "5.08.01 Linux 64"
-@ DATE             %08s "28/04/23"
-@ TIME             %08s "16.00.24"
+@ DATE             %08s "02/05/23"
+@ TIME             %08s "17.34.22"
 * NAME               S X Y PX PY 
 $ %s                 %le %le %le %le %le 
  "IP5"               6664.8731672437 1.19609395554637e-08 7.46526883929968e-09 -2.2633351968595e-07 -0.000250081744054046
@@ -11566,1925 +11566,6 @@ making acfgav.4br1.b2
 
 
 enter Twiss module
-
-++++++ table: summ
-
-length orbit5 alfa gammatr 
-26658.8832 -0 0.00034845473765051 53.5706373268763 
-
-q1 dq1 betxmax dxmax 
-62.3100359241365 1.59447025098656 43286.8951478789 2.72117868009755 
-
-dxrms xcomax xcorms q2 
-1.43266270000272 0 0 60.3200004610329 
-
-dq2 betymax dymax dyrms 
-1.99806029861311 43281.2944633562 -0 0 
-
-ycomax ycorms deltap synch_1 
-0 0 0 0 
-
-synch_2 synch_3 synch_4 synch_5 
-0 0 0 0 
-
-synch_6 synch_8 nflips dqmin 
-0 0 0 0 
-
-dqmin_phase 
-0 
-refbetxip1b1       = 0.17996637476312 ;
-refbetyip1b1       = 0.0750000000001998 ;
-refbetxip5b1       = 0.0749903196361145 ;
-refbetyip5b1       = 0.179999999993825 ;
-refbetxip2b1       = 10.0018927911664 ;
-refbetyip2b1       = 10.000000001361 ;
-refbetxip8b1       = 1.49973983490392 ;
-refbetyip8b1       = 1.50000000001372 ;
-refqxb1            = 62.3100359241365 ;
-refqyb1            = 60.3200004610329 ;
-refdqxb1           = 1.59447025098656 ;
-refdqyb1           = 1.99806029861311 ;
-refxip1b1          = 0 ;
-refyip1b1          = 0 ;
-refxip5b1          = 0 ;
-refyip5b1          = 0 ;
-refxip2b1          = 0 ;
-refyip2b1          = 0 ;
-refxip8b1          = 0 ;
-refyip8b1          = 0 ;
-refpxip1b1         = 0 ;
-refpyip1b1         = 0 ;
-refpxip5b1         = 0 ;
-refpyip5b1         = 0 ;
-refpxip2b1         = 0 ;
-refpyip2b1         = 0 ;
-refpxip8b1         = 0 ;
-refpyip8b1         = 0 ;
-enter Twiss module
-
-++++++ table: summ
-
-length orbit5 alfa gammatr 
-26658.8832 -0 0.000348821825732421 53.5424419596345 
-
-q1 dq1 betxmax dxmax 
-62.3100359329233 1.62515604421292 43286.9073365417 5.80065815019672 
-
-dxrms xcomax xcorms q2 
-1.71140391118863 0.014391255203515 0.00171713514780042 60.3200003667675 
-
-dq2 betymax dymax dyrms 
-3.08767999322286 43281.2837806382 8.25583785391599 1.34459253704836 
-
-ycomax ycorms deltap synch_1 
-0.0146445515484033 0.00187919320758668 0 0 
-
-synch_2 synch_3 synch_4 synch_5 
-0 0 0 0 
-
-synch_6 synch_8 nflips dqmin 
-0 0 0 1.42387395588087e-15 
-
-dqmin_phase 
--3.03067365446366 
-xnom1              = -9.14424366546394e-10 ;
-xnom2              = -0.000144370523004541 ;
-xnom5              = 1.72279758444491e-09 ;
-xnom8              = -7.28808604744877e-09 ;
-ynom1              = 2.99524676335113e-16 ;
-ynom2              = 2.65311376096048e-15 ;
-ynom5              = 1.04196656863656e-15 ;
-ynom8              = 1.07583324542989e-15 ;
-pxnom1             = 0.000249991556487987 ;
-pxnom2             = 2.90249874945298e-07 ;
-pxnom5             = 3.58286748616512e-09 ;
-pxnom8             = 0.000134986020262117 ;
-pynom1             = 9.40594071734918e-16 ;
-pynom2             = -0.000100000608721939 ;
-pynom5             = 0.000250000000001888 ;
-pynom8             = 1.80973622101346e-06 ;
-enter Twiss module
-
-++++++ table: summ
-
-length orbit5 alfa gammatr 
-26658.8832 -0 0.000348821825732421 53.5424419596345 
-
-q1 dq1 betxmax dxmax 
-62.3100359329233 1.62515604421292 43286.9073365417 5.80065815019672 
-
-dxrms xcomax xcorms q2 
-1.71140391118863 0.014391255203515 0.00171713514780042 60.3200003667675 
-
-dq2 betymax dymax dyrms 
-3.08767999322286 43281.2837806382 8.25583785391599 1.34459253704836 
-
-ycomax ycorms deltap synch_1 
-0.0146445515484033 0.00187919320758668 0 0 
-
-synch_2 synch_3 synch_4 synch_5 
-0 0 0 0 
-
-synch_6 synch_8 nflips dqmin 
-0 0 0 1.42413514641244e-15 
-
-dqmin_phase 
--3.03213283343435 
-beta.ip1           = 0.179966402407117 ;
-enter Twiss module
-
-++++++ table: summ
-
-length orbit5 alfa gammatr 
-26658.8832 -0 0.000348821825732421 53.5424419596345 
-
-q1 dq1 betxmax dxmax 
-62.3100359329233 1.62515604421292 43286.9073365417 5.80065815019672 
-
-dxrms xcomax xcorms q2 
-1.71140391118863 0.014391255203515 0.00171713514780042 60.3200003667675 
-
-dq2 betymax dymax dyrms 
-3.08767999322286 43281.2837806382 8.25583785391599 1.34459253704836 
-
-ycomax ycorms deltap synch_1 
-0.0146445515484033 0.00187919320758668 0 0 
-
-synch_2 synch_3 synch_4 synch_5 
-0 0 0 0 
-
-synch_6 synch_8 nflips dqmin 
-0 0 0 1.42413514641244e-15 
-
-dqmin_phase 
--3.03213283343435 
-enter Twiss module
-
-++++++ table: summ
-
-length orbit5 alfa gammatr 
-26658.8832 -0 0.000348821825732421 53.5424419596345 
-
-q1 dq1 betxmax dxmax 
-62.3100359329233 1.62515604421292 43286.9073365417 5.80065815019672 
-
-dxrms xcomax xcorms q2 
-1.71140391118863 0.014391255203515 0.00171713514780042 60.3200003667675 
-
-dq2 betymax dymax dyrms 
-3.08767999322286 43281.2837806382 8.25583785391599 1.34459253704836 
-
-ycomax ycorms deltap synch_1 
-0.0146445515484033 0.00187919320758668 0 0 
-
-synch_2 synch_3 synch_4 synch_5 
-0 0 0 0 
-
-synch_6 synch_8 nflips dqmin 
-0 0 0 1.42413514641244e-15 
-
-dqmin_phase 
--3.03213283343435 
- Energy is   7000.0000000000000      GeV
- ******Sector******            1           2
- 308         MB   slices in sector  1
-  16         MQTF slices in sector  1
-  16         MQTD slices in sector  1
-   4         MQS  slices in sector  1
- 154         MCS  slices in sector  1
-  77         MCO  slices in sector  1
-  77         MCD  slices in sector  1
- ******Sector******            2           3
- 308         MB   slices in sector  2
-  16         MQTF slices in sector  2
-  16         MQTD slices in sector  2
-   4         MQS  slices in sector  2
- 154         MCS  slices in sector  2
-  77         MCO  slices in sector  2
-  77         MCD  slices in sector  2
- ******Sector******            3           4
- 308         MB   slices in sector  3
-  16         MQTF slices in sector  3
-  16         MQTD slices in sector  3
-   4         MQS  slices in sector  3
- 154         MCS  slices in sector  3
-  77         MCO  slices in sector  3
-  77         MCD  slices in sector  3
- ******Sector******            4           5
- 308         MB   slices in sector  4
-  16         MQTF slices in sector  4
-  16         MQTD slices in sector  4
-   4         MQS  slices in sector  4
- 154         MCS  slices in sector  4
-  77         MCO  slices in sector  4
-  77         MCD  slices in sector  4
- ******Sector******            5           6
- 308         MB   slices in sector  5
-  16         MQTF slices in sector  5
-  16         MQTD slices in sector  5
-   4         MQS  slices in sector  5
- 154         MCS  slices in sector  5
-  77         MCO  slices in sector  5
-  77         MCD  slices in sector  5
- ******Sector******            6           7
- 314         MB   slices in sector  6
-  16         MQTF slices in sector  6
-  16         MQTD slices in sector  6
-   4         MQS  slices in sector  6
- 154         MCS  slices in sector  6
-  77         MCO  slices in sector  6
-  77         MCD  slices in sector  6
- ******Sector******            7           8
- 314         MB   slices in sector  7
-  16         MQTF slices in sector  7
-  16         MQTD slices in sector  7
-   4         MQS  slices in sector  7
- 154         MCS  slices in sector  7
-  77         MCO  slices in sector  7
-  77         MCD  slices in sector  7
- ******Sector******            8           1
- 308         MB   slices in sector  8
-  16         MQTF slices in sector  8
-  16         MQTD slices in sector  8
-   4         MQS  slices in sector  8
- 154         MCS  slices in sector  8
-  77         MCO  slices in sector  8
-  77         MCD  slices in sector  8
- Collision energy
- a2res           1   0.0000000000000000     
- a3res           1   0.0000000000000000     
- a2res           2   0.0000000000000000     
- a3res           2   0.0000000000000000     
-START MATCHING
-
-number of variables:    2
-user given constraints: 2
-total constraints:      2
-
-START LMDIF:
-
-
-MATCH SUMMARY
-
-Node_Name                  Constraint   Type  Target Value       Final Value        Penalty
---------------------------------------------------------------------------------------------------
-
-
-Final Penalty Function =   1.23052358e-09
-
-
-
-
-
-Variable                 Final Value  Initial Value Lower Limit  Upper Limit 
---------------------------------------------------------------------------------
-kqtf.b1                   4.57191e-05  0.00000e+00 -1.00000e+20  1.00000e+20
-kqtd.b1                  -1.57139e-05  0.00000e+00 -1.00000e+20  1.00000e+20
-
-END MATCH SUMMARY
-
-VARIABLE "TAR" SET TO   1.23052358e-09
-enter Twiss module
-
-++++++ table: summ
-
-length orbit5 alfa gammatr 
-26658.8832 -0 0.000348485528563919 53.5682706212927 
-
-q1 dq1 betxmax dxmax 
-62.3185024377739 1.47478041703369 44229.377956457 4.22826587574065 
-
-dxrms xcomax xcorms q2 
-1.5898062768035 0.0143100582226678 0.00197348690798723 60.3184974776015 
-
-dq2 betymax dymax dyrms 
-1.19170047365167 43082.7409886881 0.958570223580434 0.168927344927062 
-
-ycomax ycorms deltap synch_1 
-0.0146241538727723 0.00196220344639714 0 0 
-
-synch_2 synch_3 synch_4 synch_5 
-0 0 0 0 
-
-synch_6 synch_8 nflips dqmin 
-0 0 0 1.11097490832211e-09 
-
-dqmin_phase 
-2.92935613465505 
-enter Twiss module
-
-++++++ table: summ
-
-length orbit5 alfa gammatr 
-26658.8832 -0 0.00034848552850718 53.5682706256536 
-
-q1 dq1 betxmax dxmax 
-62.3185032261139 1.47478546492707 44229.0855224453 4.2282647617094 
-
-dxrms xcomax xcorms q2 
-1.58980613492174 0.0143100582184438 0.00197348690740291 60.3184966892438 
-
-dq2 betymax dymax dyrms 
-1.19169236235349 43082.4513715531 0.958514236538718 0.168921883797673 
-
-ycomax ycorms deltap synch_1 
-0.0146241538572175 0.00196220344369023 0 0 
-
-synch_2 synch_3 synch_4 synch_5 
-0 0 0 0 
-
-synch_6 synch_8 nflips dqmin 
-0 0 0 1.6520378057356e-09 
-
-dqmin_phase 
-1.73189665996336 
-enter Twiss module
-
-++++++ table: summ
-
-length orbit5 alfa gammatr 
-26658.8832 -0 0.00034848552862066 53.5682706169317 
-
-q1 dq1 betxmax dxmax 
-62.3185021170173 1.47477735826367 44230.8880076097 4.22826698989821 
-
-dxrms xcomax xcorms q2 
-1.58980641869635 0.0143100582268936 0.00197348690857178 60.3184977983773 
-
-dq2 betymax dymax dyrms 
-1.19170697790049 43083.186402576 0.958626210625165 0.168932806212317 
-
-ycomax ycorms deltap synch_1 
-0.0146241538883228 0.0019622034491036 0 0 
-
-synch_2 synch_3 synch_4 synch_5 
-0 0 0 0 
-
-synch_6 synch_8 nflips dqmin 
-0 0 0 1.72384903852094e-09 
-
-dqmin_phase 
--2.13267761075623 
-enter Twiss module
-
-++++++ table: summ
-
-length orbit5 alfa gammatr 
-26658.8832 -0 0.000348485528619458 53.568270617024 
-
-q1 dq1 betxmax dxmax 
-62.3185021170108 1.47477739426039 44230.8403486899 4.22826696617757 
-
-dxrms xcomax xcorms q2 
-1.58980641567667 0.0143100582268025 0.0019734869085592 60.3184977983831 
-
-dq2 betymax dymax dyrms 
-1.19170686300228 43083.1768467485 0.958625019829412 0.168932690053956 
-
-ycomax ycorms deltap synch_1 
-0.0146241538879924 0.00196220344904606 0 0 
-
-synch_2 synch_3 synch_4 synch_5 
-0 0 0 0 
-
-synch_6 synch_8 nflips dqmin 
-0 0 0 1.70449703667563e-09 
-
-dqmin_phase 
--2.1519461295276 
-enter Twiss module
-  
-iteration:   1 error:   1.493391E-05 deltap:   0.000000E+00
-orbit:   2.373709E-06  7.449742E-09 -7.672772E-06 -7.258037E-08  0.000000E+00  0.000000E+00
-  
-iteration:   2 error:   5.544126E-10 deltap:   0.000000E+00
-orbit:   2.373563E-06  7.451366E-09 -7.673252E-06 -7.258684E-08  0.000000E+00  0.000000E+00
-  
-iteration:   1 error:   8.928349E-06 deltap:   0.000000E+00
-orbit:   2.700825E-06  4.700739E-09 -3.413509E-07 -3.348835E-08  0.000000E+00  0.000000E+00
-  
-iteration:   2 error:   5.455954E-10 deltap:   0.000000E+00
-orbit:   2.700646E-06  4.700034E-09 -3.411899E-07 -3.348813E-08  0.000000E+00  0.000000E+00
-  
-iteration:   1 error:   6.776607E-06 deltap:   0.000000E+00
-orbit:  -4.120664E-06  8.751914E-08 -4.697757E-07 -8.673379E-09  0.000000E+00  0.000000E+00
-  
-iteration:   2 error:   1.749323E-11 deltap:   0.000000E+00
-orbit:  -4.120667E-06  8.751919E-08 -4.697906E-07 -8.673576E-09  0.000000E+00  0.000000E+00
-  
-iteration:   1 error:   1.173414E-06 deltap:   0.000000E+00
-orbit:   7.471155E-07  1.633686E-08  8.815754E-07 -1.029074E-08  0.000000E+00  0.000000E+00
-  
-iteration:   2 error:   5.769302E-12 deltap:   0.000000E+00
-orbit:   7.471152E-07  1.633685E-08  8.815795E-07 -1.029079E-08  0.000000E+00  0.000000E+00
-  
-iteration:   1 error:   0.000000E+00 deltap:   0.000000E+00
-orbit:   0.000000E+00  0.000000E+00  0.000000E+00  0.000000E+00  0.000000E+00  0.000000E+00
-  
-iteration:   1 error:   1.032591E-07 deltap:   0.000000E+00
-orbit:   6.967876E-08 -1.385946E-09 -4.741688E-15 -1.182923E-16  0.000000E+00  0.000000E+00
-  
-iteration:   1 error:   1.032591E-07 deltap:   0.000000E+00
-orbit:   6.967876E-08 -1.385946E-09 -4.741688E-15 -1.182923E-16  0.000000E+00  0.000000E+00
-  
-iteration:   1 error:   1.032591E-07 deltap:   0.000000E+00
-orbit:   6.967876E-08 -1.385946E-09 -4.741688E-15 -1.182923E-16  0.000000E+00  0.000000E+00
-  
-iteration:   1 error:   1.032591E-07 deltap:   0.000000E+00
-orbit:   6.967876E-08 -1.385946E-09 -4.741688E-15 -1.182923E-16  0.000000E+00  0.000000E+00
-Initial Penalty Function =   0.38693559E-02
-
-
-call:       4   Penalty function =   0.12950489E-08
-call:       7   Penalty function =   0.12486837E-08
-call:      10   Penalty function =   0.12313521E-08
-call:      15   Penalty function =   0.12307039E-08
-call:      18   Penalty function =   0.12305254E-08
-call:      24   Penalty function =   0.12305236E-08
-call:      30   Penalty function =   0.12305236E-08
- ++++++++++ LMDIF ended: converged without success
-call:      33   Penalty function =   0.12305236E-08
-Global constraint:         q1           4     6.23185000E+01     6.23185024E+01     5.94274177E-10
-Global constraint:         q2           4     6.03185000E+01     6.03184975E+01     6.36249399E-10
-  
-iteration:   1 error:   1.855391E-05 deltap:   0.000000E+00
-orbit:   1.211803E-05 -2.399981E-07  2.822477E-06  4.778217E-08  0.000000E+00  0.000000E+00
-  
-iteration:   2 error:   5.899807E-10 deltap:   0.000000E+00
-orbit:   1.211837E-05 -2.400047E-07  2.822004E-06  4.777609E-08  0.000000E+00  0.000000E+00
-  
-iteration:   1 error:   1.855393E-05 deltap:   0.000000E+00
-orbit:   1.211803E-05 -2.399982E-07  2.822426E-06  4.778180E-08  0.000000E+00  0.000000E+00
-  
-iteration:   2 error:   5.899710E-10 deltap:   0.000000E+00
-orbit:   1.211837E-05 -2.400047E-07  2.821953E-06  4.777572E-08  0.000000E+00  0.000000E+00
-  
-iteration:   1 error:   1.855388E-05 deltap:   0.000000E+00
-orbit:   1.211802E-05 -2.399981E-07  2.822528E-06  4.778254E-08  0.000000E+00  0.000000E+00
-  
-iteration:   2 error:   5.899901E-10 deltap:   0.000000E+00
-orbit:   1.211837E-05 -2.400046E-07  2.822055E-06  4.777646E-08  0.000000E+00  0.000000E+00
-  
-iteration:   1 error:   1.855388E-05 deltap:   0.000000E+00
-orbit:   1.211802E-05 -2.399981E-07  2.822527E-06  4.778254E-08  0.000000E+00  0.000000E+00
-  
-iteration:   2 error:   5.899899E-10 deltap:   0.000000E+00
-orbit:   1.211837E-05 -2.400046E-07  2.822054E-06  4.777646E-08  0.000000E+00  0.000000E+00
-  
-iteration:   1 error:   1.855391E-05 deltap:   0.000000E+00
-orbit:   1.211804E-05 -2.399984E-07  2.822559E-06  4.778290E-08  0.000000E+00  0.000000E+00
-
-++++++ table: summ
-
-length orbit5 alfa gammatr 
-26658.8832 -0 0.000348485528795591 53.5682706034867 
-
-q1 dq1 betxmax dxmax 
-62.3185032132915 1.47479033191284 44230.851282582 4.22827021196673 
-
-dxrms xcomax xcorms q2 
-1.58980662945565 0.0143100580405296 0.00197348688618537 60.3184967020723 
-
-dq2 betymax dymax dyrms 
-1.19169629552313 43083.1852328136 0.958623660236556 0.168935036730237 
-
-ycomax ycorms deltap synch_1 
-0.0146241531525444 0.00196220336677296 0 0 
-
-synch_2 synch_3 synch_4 synch_5 
-0 0 0 0 
-
-synch_6 synch_8 nflips dqmin 
-0 0 0 2.50469539459438e-09 
-
-dqmin_phase 
--2.17274838366745 
-enter Twiss module
-
-++++++ table: summ
-
-length orbit5 alfa gammatr 
-26658.8832 -0 0.000348485528443324 53.5682706305615 
-
-q1 dq1 betxmax dxmax 
-62.3185010209339 1.47476445771114 44230.8253708526 4.22826372055338 
-
-dxrms xcomax xcorms q2 
-1.58980620190717 0.0143100584130727 0.00197348693093271 60.3184988944918 
-
-dq2 betymax dymax dyrms 
-1.19171742976752 43083.1591432005 0.958626379430514 0.16893034350462 
-
-ycomax ycorms deltap synch_1 
-0.0146241546234394 0.00196220353131909 0 0 
-
-synch_2 synch_3 synch_4 synch_5 
-0 0 0 0 
-
-synch_6 synch_8 nflips dqmin 
-0 0 0 8.47391256333896e-10 
-
-dqmin_phase 
--2.13437154242059 
-START MATCHING
-
-number of variables:    2
-user given constraints: 2
-total constraints:      2
-
-START LMDIF:
-
-
-MATCH SUMMARY
-
-Node_Name                  Constraint   Type  Target Value       Final Value        Penalty
---------------------------------------------------------------------------------------------------
-
-
-Final Penalty Function =   1.52007804e-12
-
-
-
-
-
-Variable                 Final Value  Initial Value Lower Limit  Upper Limit 
---------------------------------------------------------------------------------
-kqtf.b1                   4.57191e-05  4.57191e-05 -1.00000e+20  1.00000e+20
-kqtd.b1                  -1.57139e-05 -1.57139e-05 -1.00000e+20  1.00000e+20
-
-END MATCH SUMMARY
-
-VARIABLE "TAR" SET TO   1.52007804e-12
-START MATCHING
-
-number of variables:    2
-user given constraints: 2
-total constraints:      2
-
-START SIMPLEX:
-
-
-MATCH SUMMARY
-
-Node_Name                  Constraint   Type  Target Value       Final Value        Penalty
---------------------------------------------------------------------------------------------------
-
-
-Final Penalty Function =   9.26792974e-13
-
-
-
-
-
-Variable                 Final Value  Initial Value Lower Limit  Upper Limit 
---------------------------------------------------------------------------------
-cmrskew                  -2.46734e-06 -2.42734e-06 -1.00000e+20  1.00000e+20
-cmiskew                  -4.34498e-06 -4.38498e-06 -1.00000e+20  1.00000e+20
-
-END MATCH SUMMARY
-
-VARIABLE "TAR" SET TO   9.26792974e-13
-START MATCHING
-
-number of variables:    2
-user given constraints: 2
-total constraints:      2
-
-START LMDIF:
-
-
-MATCH SUMMARY
-
-Node_Name                  Constraint   Type  Target Value       Final Value        Penalty
---------------------------------------------------------------------------------------------------
-
-
-Final Penalty Function =   9.26792974e-13
-
-
-
-
-
-Variable                 Final Value  Initial Value Lower Limit  Upper Limit 
---------------------------------------------------------------------------------
-kqtf.b1                   4.57191e-05  4.57191e-05 -1.00000e+20  1.00000e+20
-kqtd.b1                  -1.57139e-05 -1.57139e-05 -1.00000e+20  1.00000e+20
-
-END MATCH SUMMARY
-
-VARIABLE "TAR" SET TO   9.26792974e-13
-START MATCHING
-
-number of variables:    2
-user given constraints: 2
-total constraints:      2
-
-START SIMPLEX:
-
-
-MATCH SUMMARY
-
-Node_Name                  Constraint   Type  Target Value       Final Value        Penalty
---------------------------------------------------------------------------------------------------
-
-
-Final Penalty Function =   6.20115382e-13
-
-
-
-
-
-Variable                 Final Value  Initial Value Lower Limit  Upper Limit 
---------------------------------------------------------------------------------
-cmrskew                  -2.48034e-06 -2.46734e-06 -1.00000e+20  1.00000e+20
-cmiskew                  -4.30498e-06 -4.34498e-06 -1.00000e+20  1.00000e+20
-
-END MATCH SUMMARY
-
-VARIABLE "TAR" SET TO   6.20115382e-13
-START MATCHING
-
-number of variables:    2
-user given constraints: 2
-total constraints:      2
-
-START LMDIF:
-
-
-MATCH SUMMARY
-
-Node_Name                  Constraint   Type  Target Value       Final Value        Penalty
---------------------------------------------------------------------------------------------------
-
-
-Final Penalty Function =   6.20115382e-13
-
-
-
-
-
-Variable                 Final Value  Initial Value Lower Limit  Upper Limit 
---------------------------------------------------------------------------------
-kqtf.b1                   4.57191e-05  4.57191e-05 -1.00000e+20  1.00000e+20
-kqtd.b1                  -1.57139e-05 -1.57139e-05 -1.00000e+20  1.00000e+20
-
-END MATCH SUMMARY
-
-VARIABLE "TAR" SET TO   6.20115382e-13
-enter Twiss module
-
-++++++ table: summ
-
-length orbit5 alfa gammatr 
-26658.8832 -0 0.000348485528269527 53.5682706439193 
-
-q1 dq1 betxmax dxmax 
-62.3184999939755 1.47475183150316 44235.8579936329 4.22826051936337 
-
-dxrms xcomax xcorms q2 
-1.58980599252658 0.0143100585982535 0.00197348695317701 60.3184999214834 
-
-dq2 betymax dymax dyrms 
-1.19172783150229 43082.5429424738 0.958628926901837 0.168928128622798 
-
-ycomax ycorms deltap synch_1 
-0.014624155354569 0.00196220361312975 0 0 
-
-synch_2 synch_3 synch_4 synch_5 
-0 0 0 0 
-
-synch_6 synch_8 nflips dqmin 
-0 0 0 3.92125501405727e-11 
-
-dqmin_phase 
--0.753122056018273 
-START MATCHING
-
-number of sequences: 1
-sequence name: lhcb1
-entry name: betx
-number of entries: 1
-entry value: 100.000000
-entry name: bety
-number of entries: 1
-entry value: 100.000000
-entry name: x
-number of entries: 1
-entry value: 0.000000
-entry name: px
-number of entries: 1
-entry value: 0.000000
-entry name: y
-number of entries: 1
-entry value: 0.000000
-entry name: py
-number of entries: 1
-entry value: 0.000000
-number of variables:    8
-user given constraints: 4
-total constraints:      8
-
-START SIMPLEX:
-
-number of variables:    8
-user given constraints: 4
-total constraints:      8
-
-START JACOBIAN:
-
-number of variables:    8
-user given constraints: 4
-total constraints:      8
-
-START SIMPLEX:
-
-number of variables:    8
-user given constraints: 4
-total constraints:      8
-
-START LMDIF:
-
-
-MATCH SUMMARY
-
-Node_Name                  Constraint   Type  Target Value       Final Value        Penalty
---------------------------------------------------------------------------------------------------
-  
-iteration:   2 error:   5.899921E-10 deltap:   0.000000E+00
-orbit:   1.211838E-05 -2.400050E-07  2.822086E-06  4.777682E-08  0.000000E+00  0.000000E+00
-  
-iteration:   1 error:   1.855386E-05 deltap:   0.000000E+00
-orbit:   1.211801E-05 -2.399977E-07  2.822495E-06  4.778217E-08  0.000000E+00  0.000000E+00
-  
-iteration:   2 error:   5.899879E-10 deltap:   0.000000E+00
-orbit:   1.211835E-05 -2.400042E-07  2.822022E-06  4.777609E-08  0.000000E+00  0.000000E+00
-Initial Penalty Function =   0.15200780E-11
-
-
- ++++++++++ LMDIF ended: converged successfully
-call:       1   Penalty function =   0.15200780E-11
-Global constraint:         q1           4     6.23185000E+01     6.23185000E+01     1.15443187E-13
-Global constraint:         q2           4     6.03185000E+01     6.03184999E+01     1.40463485E-12
- converged
-call:      11   Penalty function =   0.92679297E-12
-Global constraint:         q1           4     6.23185000E+01     6.23185000E+01     1.22947010E-14
-Global constraint:         q2           4     6.03185000E+01     6.03184999E+01     9.14498273E-13
-Initial Penalty Function =   0.92679297E-12
-
-
- ++++++++++ LMDIF ended: converged successfully
-call:       1   Penalty function =   0.92679297E-12
-Global constraint:         q1           4     6.23185000E+01     6.23185000E+01     1.22947010E-14
-Global constraint:         q2           4     6.03185000E+01     6.03184999E+01     9.14498273E-13
- converged
-call:      11   Penalty function =   0.62011538E-12
-Global constraint:         q1           4     6.23185000E+01     6.23185000E+01     3.62940867E-15
-Global constraint:         q2           4     6.03185000E+01     6.03184999E+01     6.16485974E-13
-Initial Penalty Function =   0.62011538E-12
-
-
- ++++++++++ LMDIF ended: converged successfully
-call:       1   Penalty function =   0.62011538E-12
-Global constraint:         q1           4     6.23185000E+01     6.23185000E+01     3.62940867E-15
-Global constraint:         q2           4     6.03185000E+01     6.03184999E+01     6.16485974E-13
-  
-iteration:   1 error:   1.855383E-05 deltap:   0.000000E+00
-orbit:   1.211800E-05 -2.399973E-07  2.822465E-06  4.778182E-08  0.000000E+00  0.000000E+00
-  
-iteration:   2 error:   5.899861E-10 deltap:   0.000000E+00
-orbit:   1.211834E-05 -2.400039E-07  2.821991E-06  4.777574E-08  0.000000E+00  0.000000E+00
-call:      97   Penalty function =   0.31398600E-14
-call:      99   Penalty function =   0.28826798E-14
- call limit
-call:     102   Penalty function =   0.22916056E-14
- JACOBIAN Strategy =           3
-Initial Penalty Function =   0.2291605575810445E-14
-
-
- Solve system with            8 con,           8 var
- Rank             8   Condition number    69.290984257347347     
- Step length    1.0093145447058847     
-call:     2 Dx =   0.10093145E+01  Penalty function =  0.3749339612462269E-22
- Solve system with            8 con,           8 var
- Rank             8   Condition number    69.291050493850932     
- Step length    1.7808372225661955E-005
-call:     3 Dx =   0.17808372E-04  Penalty function =  0.9045419823664178E-32
- ++++++++++ JACOBIAN ended: converged successfully
- Final difference norm:   8.5269694725645514E-005
- converged
-call:      98   Penalty function =   0.90454198E-32
-Initial Penalty Function =   0.90454198E-32
-
-
- ++++++++++ LMDIF ended: converged successfully
-call:       1   Penalty function =   0.90454198E-32
-ip1:1                      x            4    -9.14424367E-10    -9.14424345E-10     4.78795759E-34
-ip1:1                      px           4     2.49991556E-04     2.49991556E-04     2.38037606E-35
-ip1:1                      y            4     2.99524676E-16     2.99524676E-16     7.72152125E-56
-ip1:1                      py           4     9.40594072E-16     9.40594072E-16     4.36486181E-55
-s.ds.r1.b1:1               x            4     0.00000000E+00    -8.07752960E-17     6.52464845E-33
-s.ds.r1.b1:1               px           4     0.00000000E+00     4.49240677E-18     2.01817185E-33
-s.ds.r1.b1:1               y            4     0.00000000E+00    -3.10049215E-27     9.61305156E-54
-s.ds.r1.b1:1               py           4     0.00000000E+00    -1.46167186E-28     2.13648461E-54
-
-
-Final Penalty Function =   9.04541982e-33
-
-
-
-
-
-Variable                 Final Value  Initial Value Lower Limit  Upper Limit 
---------------------------------------------------------------------------------
-acbch6.l1b1               3.35931e-09  0.00000e+00 -8.98700e-05  8.98700e-05
-acbcv5.l1b1              -4.99835e-16  0.00000e+00 -8.98700e-05  8.98700e-05
-acbch5.r1b1              -5.36605e-09  0.00000e+00 -8.98700e-05  8.98700e-05
-acbcv6.r1b1               3.81321e-16  0.00000e+00 -8.98700e-05  8.98700e-05
-acbyhs4.l1b1             -1.80649e-09  0.00000e+00 -9.63000e-05  9.63000e-05
-acbyhs4.r1b1              2.92441e-09  0.00000e+00 -9.63000e-05  9.63000e-05
-acbyvs4.l1b1              2.33060e-16  0.00000e+00 -9.63000e-05  9.63000e-05
-acbyvs4.r1b1             -2.11970e-16  0.00000e+00 -9.63000e-05  9.63000e-05
-
-END MATCH SUMMARY
-
-VARIABLE "TAR" SET TO   9.04541982e-33
-START MATCHING
-
-number of sequences: 1
-sequence name: lhcb1
-entry name: betx
-number of entries: 1
-entry value: 100.000000
-entry name: bety
-number of entries: 1
-entry value: 100.000000
-entry name: x
-number of entries: 1
-entry value: 0.000000
-entry name: px
-number of entries: 1
-entry value: 0.000000
-entry name: y
-number of entries: 1
-entry value: 0.000000
-entry name: py
-number of entries: 1
-entry value: 0.000000
-number of variables:    8
-user given constraints: 4
-total constraints:      8
-
-START SIMPLEX:
-
-number of variables:    8
-user given constraints: 4
-total constraints:      8
-
-START JACOBIAN:
-
-number of variables:    8
-user given constraints: 4
-total constraints:      8
-
-START SIMPLEX:
-
-number of variables:    8
-user given constraints: 4
-total constraints:      8
-
-START LMDIF:
-
-
-MATCH SUMMARY
-
-Node_Name                  Constraint   Type  Target Value       Final Value        Penalty
---------------------------------------------------------------------------------------------------
-
-
-Final Penalty Function =   4.24398187e-34
-
-
-
-
-
-Variable                 Final Value  Initial Value Lower Limit  Upper Limit 
---------------------------------------------------------------------------------
-acbyhs5.l2b1              4.27024e-07  4.25677e-07 -9.63000e-05  9.63000e-05
-acbchs5.r2b1             -3.34789e-06 -3.34692e-06 -8.98700e-05  8.98700e-05
-acbyvs5.l2b1              3.27409e-05  3.27409e-05 -9.63000e-05  9.63000e-05
-acbcvs5.r2b1             -4.91946e-05 -4.91946e-05 -8.98700e-05  8.98700e-05
-acbyhs4.l2b1             -1.91583e-06 -1.91416e-06 -9.63000e-05  9.63000e-05
-acbyhs4.r2b1              9.21455e-07  9.21484e-07 -9.63000e-05  9.63000e-05
-acbyvs4.l2b1              3.22432e-05  3.22432e-05 -9.63000e-05  9.63000e-05
-acbyvs4.r2b1              5.63832e-06  5.63832e-06 -9.63000e-05  9.63000e-05
-
-END MATCH SUMMARY
-
-VARIABLE "TAR" SET TO   4.24398187e-34
-START MATCHING
-
-number of sequences: 1
-sequence name: lhcb1
-entry name: betx
-number of entries: 1
-entry value: 100.000000
-entry name: bety
-number of entries: 1
-entry value: 100.000000
-entry name: x
-number of entries: 1
-entry value: 0.000000
-entry name: px
-number of entries: 1
-entry value: 0.000000
-entry name: y
-number of entries: 1
-entry value: 0.000000
-entry name: py
-number of entries: 1
-entry value: 0.000000
-number of variables:    8
-user given constraints: 4
-total constraints:      8
-
-START SIMPLEX:
-
-number of variables:    8
-user given constraints: 4
-total constraints:      8
-
-START JACOBIAN:
-
-number of variables:    8
-user given constraints: 4
-total constraints:      8
-
-START SIMPLEX:
-
- call limit
-call:     102   Penalty function =   0.35209499E-15
- JACOBIAN Strategy =           3
-Initial Penalty Function =   0.3520949916857528E-15
-
-
- Solve system with            8 con,           8 var
- Rank             8   Condition number    91.360211781840007     
- Step length    3.3329715898698042E-005
-call:     2 Dx =   0.33329716E-04  Penalty function =  0.4243981873988345E-33
- ++++++++++ JACOBIAN ended: converged successfully
- Final difference norm:   4.7491731976763459E-005
- converged
-call:      98   Penalty function =   0.42439819E-33
-Initial Penalty Function =   0.42439819E-33
-
-
- ++++++++++ LMDIF ended: converged successfully
-call:       1   Penalty function =   0.42439819E-33
-ip2:1                      x            4    -1.44370523E-04    -1.44370523E-04     7.06031294E-37
-ip2:1                      px           4     2.90249875E-07     2.90249875E-07     6.19093662E-38
-ip2:1                      y            4     2.65311376E-15     2.64974522E-15     1.13470897E-35
-ip2:1                      py           4    -1.00000609E-04    -1.00000609E-04     1.17549435E-36
-s.ds.r2.b1:1               x            4     0.00000000E+00     8.98173938E-18     8.06716423E-35
-s.ds.r2.b1:1               px           4     0.00000000E+00    -2.81273610E-19     7.91148438E-36
-s.ds.r2.b1:1               y            4     0.00000000E+00     1.74278671E-17     3.03730553E-34
-s.ds.r2.b1:1               py           4     0.00000000E+00    -4.33520275E-19     1.87939829E-35
- call limit
-call:     102   Penalty function =   0.14174355E-15
- JACOBIAN Strategy =           3
-Initial Penalty Function =   0.1417435462067732E-15
-
-
- Solve system with            8 con,           8 var
- Rank             8   Condition number    56.362355401930564     
- Step length   0.74127482652731080     
-call:     2 Dx =   0.74127483E+00  Penalty function =  0.1320989924133738E-24
- Solve system with            8 con,           8 var
- Rank             8   Condition number    217.83415173445707     
- Step length    9.5903901786796485E-006
- Bisec iteration            3
-call:     3 Dx =   0.95903902E-05  Penalty function =  0.2020840827953412E-24
- Solve system with            8 con,           8 var
- Rank             8   Condition number    106.56970244557802     
- Step length    1.2200285814628731E-005
-call:     4 Dx =   0.12200286E-04  Penalty function =  0.2951367373205430E-25
- Solve system with            8 con,           8 var
- Rank             8   Condition number    162.15562381067124     
- Step length    4.5741792516621811E-006
- Bisec iteration            2
-call:     5 Dx =   0.45741793E-05  Penalty function =  0.1907276482273246E-25
- Solve system with            8 con,           8 var
- Rank             8   Condition number    1079.3204510132971     
- Step length    7.1293388956277239E-007
- Bisec iteration            3
-call:     6 Dx =   0.71293389E-06  Penalty function =  0.2804837118672091E-25
- Solve system with            8 con,           8 var
- Rank             8   Condition number    4258.0412752052771     
- Step length    8.0600643071795203E-007
- Bisec iteration            3
-call:     7 Dx =   0.80600643E-06  Penalty function =  0.3643933882869811E-25
- Solve system with            8 con,           8 var
- Rank             8   Condition number    1101.5402745956940     
- Step length    6.2068762937939893E-006
- Bisec iteration            2
-call:     8 Dx =   0.62068763E-05  Penalty function =  0.4308855240719299E-26
- Solve system with            8 con,           8 var
- Rank             8   Condition number    306.36490469751135     
- Step length    5.7237252566904336E-006
- Bisec iteration            3
-call:     9 Dx =   0.57237253E-05  Penalty function =  0.1781113651745140E-25
- Solve system with            8 con,           8 var
- Rank             8   Condition number    2097.0923470242119     
- Step length    1.7889586708450589E-005
- Bisec iteration            3
-call:    10 Dx =   0.17889587E-04  Penalty function =  0.7120949663193101E-25
- ++++++++++ JACOBIAN ended: call limit
- Final difference norm:   4.4514020403659910E-005
-call:     415   Penalty function =   0.37124915E-26
-call:     417   Penalty function =   0.32718365E-26
-call:     419   Penalty function =   0.27896405E-26
-call:     421   Penalty function =   0.27490443E-26
-call:     423   Penalty function =   0.25015203E-26
-call:     425   Penalty function =   0.12497583E-26
-call:     438   Penalty function =   0.10928316E-26
-call:     440   Penalty function =   0.10564872E-26
-call:     443   Penalty function =   0.86185689E-27
-call:     446   Penalty function =   0.66410295E-27
-call:     453   Penalty function =   0.57521682E-27
-call:     455   Penalty function =   0.52493488E-27
-call:     461   Penalty function =   0.50771661E-27
-call:     463   Penalty function =   0.50060535E-27
-call:     465   Penalty function =   0.42365770E-27
-call:     468   Penalty function =   0.40195482E-27
-call:     470   Penalty function =   0.34690238E-27
-call:     479   Penalty function =   0.26939328E-27
-call:     488   Penalty function =   0.26752735E-27
-call:     492   Penalty function =   0.23625323E-27
-call:     506   Penalty function =   0.23265769E-27
-call:     508   Penalty function =   0.22903225E-27
-call:     511   Penalty function =   0.22676769E-27
-call:     513   Penalty function =   0.22598458E-27
-call:     516   Penalty function =   0.22367092E-27
-call:     518   Penalty function =   0.22279433E-27
-call:     520   Penalty function =   0.22160583E-27
-call:     522   Penalty function =   0.22069758E-27
-call:     524   Penalty function =   0.22040483E-27
-call:     529   Penalty function =   0.21960824E-27
-call:     532   Penalty function =   0.21748437E-27
-call:     534   Penalty function =   0.21740125E-27
-call:     537   Penalty function =   0.21670224E-27
-call:     542   Penalty function =   0.21649023E-27
-call:     544   Penalty function =   0.21589176E-27
-call:     546   Penalty function =   0.21383656E-27
-call:     548   Penalty function =   0.21288389E-27
-call:     558   Penalty function =   0.21278202E-27
-call:     564   Penalty function =   0.21211494E-27
-call:     567   Penalty function =   0.21198033E-27
-call:     570   Penalty function =   0.21183303E-27
-call:     572   Penalty function =   0.21159836E-27
-call:     575   Penalty function =   0.21087994E-27
-call:     577   Penalty function =   0.20962485E-27
-call:     582   Penalty function =   0.20921775E-27
-call:     586   Penalty function =   0.20865458E-27
-call:     589   Penalty function =   0.20802450E-27
-call:     591   Penalty function =   0.20712244E-27
-call:     593   Penalty function =   0.20667349E-27
-call:     597   Penalty function =   0.20650932E-27
-call:     601   Penalty function =   0.20587609E-27
-call:     607   Penalty function =   0.20531649E-27
-call:     610   Penalty function =   0.20353050E-27
-call:     616   Penalty function =   0.20272324E-27
-call:     619   Penalty function =   0.20250675E-27
-call:     621   Penalty function =   0.20160025E-27
-call:     623   Penalty function =   0.19792345E-27
-call:     628   Penalty function =   0.19195809E-27
-call:     634   Penalty function =   0.19055146E-27
-call:     637   Penalty function =   0.18617822E-27
-call:     640   Penalty function =   0.18571663E-27
-call:     642   Penalty function =   0.17986182E-27
-call:     644   Penalty function =   0.17595316E-27
-call:     647   Penalty function =   0.17383710E-27
-call:     650   Penalty function =   0.16808290E-27
-call:     655   Penalty function =   0.15485734E-27
-call:     666   Penalty function =   0.14053315E-27
-call:     673   Penalty function =   0.14039366E-27
-call:     678   Penalty function =   0.13879626E-27
-call:     681   Penalty function =   0.13695203E-27
-call:     683   Penalty function =   0.13560536E-27
-call:     685   Penalty function =   0.13221593E-27
-call:     687   Penalty function =   0.12861583E-27
-call:     691   Penalty function =   0.12403193E-27
-call:     693   Penalty function =   0.10735302E-27
-call:     711   Penalty function =   0.10443670E-27
-call:     713   Penalty function =   0.98739558E-28
-call:     720   Penalty function =   0.95879374E-28
-call:     724   Penalty function =   0.64361288E-28
-call:     734   Penalty function =   0.45213884E-28
-number of variables:    8
-user given constraints: 4
-total constraints:      8
-
-START LMDIF:
-
-
-MATCH SUMMARY
-
-Node_Name                  Constraint   Type  Target Value       Final Value        Penalty
---------------------------------------------------------------------------------------------------
-
-
-Final Penalty Function =   4.62687904e-31
-
-
-
-
-
-Variable                 Final Value  Initial Value Lower Limit  Upper Limit 
---------------------------------------------------------------------------------
-acbch6.l5b1              -1.62863e-09  0.00000e+00 -8.98700e-05  8.98700e-05
-acbcv5.l5b1              -1.16957e-15  0.00000e+00 -8.98700e-05  8.98700e-05
-acbch5.r5b1               1.75368e-09  0.00000e+00 -8.98700e-05  8.98700e-05
-acbcv6.r5b1               7.71682e-16  0.00000e+00 -8.98700e-05  8.98700e-05
-acbyhs4.l5b1              1.00139e-09  0.00000e+00 -9.63000e-05  9.63000e-05
-acbyhs4.r5b1             -6.44064e-10  0.00000e+00 -9.63000e-05  9.63000e-05
-acbyvs4.l5b1              6.32761e-16  0.00000e+00 -9.63000e-05  9.63000e-05
-acbyvs4.r5b1             -4.31581e-16  0.00000e+00 -9.63000e-05  9.63000e-05
-
-END MATCH SUMMARY
-
-VARIABLE "TAR" SET TO   4.62687904e-31
-START MATCHING
-
-number of sequences: 1
-sequence name: lhcb1
-entry name: betx
-number of entries: 1
-entry value: 100.000000
-entry name: bety
-number of entries: 1
-entry value: 100.000000
-entry name: x
-number of entries: 1
-entry value: 0.000000
-entry name: px
-number of entries: 1
-entry value: 0.000000
-entry name: y
-number of entries: 1
-entry value: 0.000000
-entry name: py
-number of entries: 1
-entry value: 0.000000
-number of variables:    8
-user given constraints: 4
-total constraints:      8
-
-START SIMPLEX:
-
-number of variables:    8
-user given constraints: 4
-total constraints:      8
-
-START JACOBIAN:
-
-number of variables:    8
-user given constraints: 4
-total constraints:      8
-
-START SIMPLEX:
-
-number of variables:    8
-user given constraints: 4
-total constraints:      8
-
-START LMDIF:
-
-
-MATCH SUMMARY
-
-Node_Name                  Constraint   Type  Target Value       Final Value        Penalty
---------------------------------------------------------------------------------------------------
-
-
-Final Penalty Function =   1.38029557e-38
-
-
-
-
-
-Variable                 Final Value  Initial Value Lower Limit  Upper Limit 
---------------------------------------------------------------------------------
-acbch5.l8b1               1.29942e-09  0.00000e+00 -8.98700e-05  8.98700e-05
-acbyhs4.l8b1             -1.62576e-09  0.00000e+00 -9.63000e-05  9.63000e-05
-acbyhs4.r8b1             -5.07197e-12  0.00000e+00 -9.63000e-05  9.63000e-05
-acbyhs5.r8b1             -9.82199e-10  0.00000e+00 -9.63000e-05  9.63000e-05
-acbcvs5.l8b1             -4.42672e-16  0.00000e+00 -8.98700e-05  8.98700e-05
-acbyvs4.l8b1              1.60518e-16  0.00000e+00 -9.63000e-05  9.63000e-05
-acbyvs4.r8b1             -1.98491e-16  0.00000e+00 -9.63000e-05  9.63000e-05
-acbyvs5.r8b1              2.45585e-16  0.00000e+00 -9.63000e-05  9.63000e-05
-
-END MATCH SUMMARY
-
-VARIABLE "TAR" SET TO   1.38029557e-38
-tarmatchcoip       = 4.72157736029157e-31 ;
-tarxir1b1          = 9.04541982366418e-33 ;
-tarxir2b1          = 4.24398187398835e-34 ;
-tarxir5b1          = 4.62687904215138e-31 ;
-tarxir8b1          = 1.38029556526808e-38 ;
-START MATCHING
-
-number of sequences: 1
-sequence name: lhcb1
-entry name: betx
-number of entries: 1
-entry value: 100.000000
-entry name: bety
-number of entries: 1
-entry value: 100.000000
-entry name: x
-number of entries: 1
-entry value: 0.000000
-entry name: px
-number of entries: 1
-entry value: 0.000000
-entry name: y
-number of entries: 1
-entry value: 0.000000
-entry name: py
-number of entries: 1
-entry value: 0.000000
-number of variables:    4
-user given constraints: 4
-total constraints:      4
-
-START SIMPLEX:
-
-call:     741   Penalty function =   0.40940213E-28
-call:     744   Penalty function =   0.20703616E-28
-call:     749   Penalty function =   0.20400092E-28
-call:     753   Penalty function =   0.10882149E-28
-call:     762   Penalty function =   0.90900879E-29
-call:     770   Penalty function =   0.61962653E-29
-call:     772   Penalty function =   0.38528368E-29
-call:     784   Penalty function =   0.33455036E-29
-call:     790   Penalty function =   0.20790906E-29
-call:     792   Penalty function =   0.12877343E-29
-call:     803   Penalty function =   0.12323208E-29
-call:     805   Penalty function =   0.82366354E-30
- converged
-call:     806   Penalty function =   0.46268790E-30
-Initial Penalty Function =   0.46268790E-30
-
-
- ++++++++++ LMDIF ended: converged successfully
-call:       1   Penalty function =   0.46268790E-30
-ip5:1                      x            4     1.72279758E-09     1.72279759E-09     4.81868473E-35
-ip5:1                      px           4     3.58286749E-09     3.58286751E-09     3.87867252E-32
-ip5:1                      y            4     1.04196657E-15     1.02448677E-15     3.05543248E-34
-ip5:1                      py           4     2.50000000E-04     2.50000000E-04     7.43526626E-32
-s.ds.r5.b1:1               x            4     0.00000000E+00    -1.56878371E-16     2.46108232E-32
-s.ds.r5.b1:1               px           4     0.00000000E+00    -1.70695133E-17     2.91368285E-32
-s.ds.r5.b1:1               y            4     0.00000000E+00    -5.38330628E-16     2.89799865E-31
-s.ds.r5.b1:1               py           4     0.00000000E+00    -7.51483161E-18     5.64726942E-33
- call limit
-call:     102   Penalty function =   0.33289319E-15
- JACOBIAN Strategy =           3
-Initial Penalty Function =   0.3328931925798321E-15
-
-
- Solve system with            8 con,           8 var
- Rank             8   Condition number    270.88819739957387     
- Step length   0.94869963037058447     
-call:     2 Dx =   0.94869963E+00  Penalty function =  0.2596752186022292E-25
- Solve system with            8 con,           8 var
- Rank             8   Condition number    275.10684169935774     
- Step length    6.2014643599309881E-006
-call:     3 Dx =   0.62014644E-05  Penalty function =  0.1380295565268080E-37
- ++++++++++ JACOBIAN ended: converged successfully
- Final difference norm:   4.6725981716690644E-005
- converged
-call:      98   Penalty function =   0.13802956E-37
-Initial Penalty Function =   0.13802956E-37
-
-
- ++++++++++ LMDIF ended: converged successfully
-call:       1   Penalty function =   0.13802956E-37
-ip8:1                      x            4    -7.28808605E-09    -7.28808605E-09     1.17549435E-38
-ip8:1                      px           4     1.34986020E-04     1.34986020E-04     0.00000000E+00
-ip8:1                      y            4     1.07583325E-15     1.07583411E-15     7.51490092E-43
-ip8:1                      py           4     1.80973622E-06     1.80973622E-06     4.48415509E-42
-s.ds.r8.b1:1               x            4     0.00000000E+00     2.11192177E-20     4.46021355E-40
-s.ds.r8.b1:1               px           4     0.00000000E+00     3.48613991E-21     1.21531715E-39
-s.ds.r8.b1:1               y            4     0.00000000E+00    -1.88042580E-20     3.53600118E-40
-s.ds.r8.b1:1               py           4     0.00000000E+00     5.27616127E-22     2.78378777E-41
-call:      43   Penalty function =   0.83575356E-14
-call:      45   Penalty function =   0.61482724E-14
-call:      48   Penalty function =   0.47420719E-14
-call:      50   Penalty function =   0.44995033E-14
-call:      52   Penalty function =   0.36539357E-14
-call:      54   Penalty function =   0.30777674E-14
-call:      56   Penalty function =   0.23475709E-14
-call:      58   Penalty function =   0.20820451E-14
-call:      64   Penalty function =   0.19137928E-14
-call:      66   Penalty function =   0.17606647E-14
-call:      68   Penalty function =   0.12942856E-14
-call:      75   Penalty function =   0.10846484E-14
-call:      78   Penalty function =   0.50820898E-15
-call:      81   Penalty function =   0.49755352E-15
-call:      86   Penalty function =   0.40608372E-15
-number of variables:    4
-user given constraints: 4
-total constraints:      4
-
-START LMDIF:
-
-
-MATCH SUMMARY
-
-Node_Name                  Constraint   Type  Target Value       Final Value        Penalty
---------------------------------------------------------------------------------------------------
-
-
-Final Penalty Function =   8.31707111e-37
-
-
-
-
-
-Variable                 Final Value  Initial Value Lower Limit  Upper Limit 
---------------------------------------------------------------------------------
-acbh14.l1b1               2.46716e-07  2.53686e-07 -8.00000e-05  8.00000e-05
-acbh12.l1b1              -1.34086e-05 -1.34083e-05 -8.00000e-05  8.00000e-05
-acbv15.l1b1               1.49403e-27  0.00000e+00 -8.00000e-05  8.00000e-05
-acbv13.l1b1               3.49811e-28  0.00000e+00 -8.00000e-05  8.00000e-05
-
-END MATCH SUMMARY
-
-VARIABLE "TAR" SET TO   8.31707111e-37
-START MATCHING
-
-number of sequences: 1
-sequence name: lhcb1
-entry name: betx
-number of entries: 1
-entry value: 100.000000
-entry name: bety
-number of entries: 1
-entry value: 100.000000
-entry name: x
-number of entries: 1
-entry value: 0.000000
-entry name: px
-number of entries: 1
-entry value: 0.000000
-entry name: y
-number of entries: 1
-entry value: 0.000000
-entry name: py
-number of entries: 1
-entry value: 0.000000
-number of variables:    4
-user given constraints: 4
-total constraints:      4
-
-START SIMPLEX:
-
-number of variables:    4
-user given constraints: 4
-total constraints:      4
-
-START LMDIF:
-
-
-MATCH SUMMARY
-
-Node_Name                  Constraint   Type  Target Value       Final Value        Penalty
---------------------------------------------------------------------------------------------------
-
-
-Final Penalty Function =   1.40301402e-27
-
-
-
-
-
-Variable                 Final Value  Initial Value Lower Limit  Upper Limit 
---------------------------------------------------------------------------------
-acbh13.r1b1              -3.73900e-05 -3.73974e-05 -8.00000e-05  8.00000e-05
-acbh15.r1b1              -1.79867e-07 -1.01676e-07 -8.00000e-05  8.00000e-05
-acbv12.r1b1               5.74310e-16  0.00000e+00 -8.00000e-05  8.00000e-05
-acbv14.r1b1               4.59122e-17  0.00000e+00 -8.00000e-05  8.00000e-05
-
-END MATCH SUMMARY
-
-VARIABLE "TAR" SET TO   1.40301402e-27
-START MATCHING
-
-number of sequences: 1
-sequence name: lhcb1
-entry name: betx
-number of entries: 1
-entry value: 100.000000
-entry name: bety
-number of entries: 1
-entry value: 100.000000
-entry name: x
-number of entries: 1
-entry value: 0.000000
-entry name: px
-number of entries: 1
-entry value: 0.000000
-entry name: y
-number of entries: 1
-entry value: 0.000000
-entry name: py
-number of entries: 1
-entry value: 0.000000
-number of variables:    4
-user given constraints: 4
-total constraints:      4
-
-START SIMPLEX:
-
-number of variables:    4
-user given constraints: 4
-total constraints:      4
-
-START LMDIF:
-
-
-MATCH SUMMARY
-
-Node_Name                  Constraint   Type  Target Value       Final Value        Penalty
---------------------------------------------------------------------------------------------------
-call:      89   Penalty function =   0.34265838E-15
-call:      93   Penalty function =   0.29189619E-15
-call:      98   Penalty function =   0.27674045E-15
-call:     100   Penalty function =   0.23377429E-15
- call limit
-call:     102   Penalty function =   0.22447304E-15
-Initial Penalty Function =   0.22447304E-15
-
-
-call:       6   Penalty function =   0.23170764E-26
-call:      11   Penalty function =   0.83170711E-36
- ++++++++++ LMDIF ended: converged successfully
-call:      11   Penalty function =   0.83170711E-36
-e.ds.l1.b1:1               x            4     0.00000000E+00    -7.74510392E-19     5.99866348E-37
-e.ds.l1.b1:1               px           4     0.00000000E+00     4.81498456E-20     2.31840763E-37
-e.ds.l1.b1:1               y            4     0.00000000E+00    -2.45869020E-26     6.04515749E-52
-e.ds.l1.b1:1               py           4     0.00000000E+00     1.37892235E-27     1.90142684E-52
-call:      31   Penalty function =   0.74656224E-10
-call:      34   Penalty function =   0.58808052E-10
-call:      42   Penalty function =   0.46980923E-10
-call:      46   Penalty function =   0.38577685E-10
-call:      48   Penalty function =   0.37758622E-10
-call:      50   Penalty function =   0.16007416E-10
-call:      58   Penalty function =   0.15765836E-10
-call:      60   Penalty function =   0.14462171E-10
-call:      62   Penalty function =   0.13500105E-10
-call:      68   Penalty function =   0.12690691E-10
-call:      73   Penalty function =   0.12162541E-10
-call:      76   Penalty function =   0.12146790E-10
-call:      78   Penalty function =   0.12122424E-10
-call:      80   Penalty function =   0.10432720E-10
-call:      88   Penalty function =   0.99043216E-11
-call:      90   Penalty function =   0.96175335E-11
-call:      94   Penalty function =   0.78299438E-11
-call:      99   Penalty function =   0.59299013E-11
- call limit
-call:     102   Penalty function =   0.59299013E-11
-Initial Penalty Function =   0.59299013E-11
-
-
-call:       6   Penalty function =   0.14754705E-17
-call:      11   Penalty function =   0.14030140E-26
- ++++++++++ LMDIF ended: converged without success
-call:      16   Penalty function =   0.14030140E-26
-s.ds.r2.b1:1               x            4     0.00000000E+00     8.40686430E-16     7.06753674E-31
-s.ds.r2.b1:1               px           4     0.00000000E+00     1.56448801E-17     2.44762275E-32
-s.ds.r2.b1:1               y            4     0.00000000E+00     3.69992197E-14     1.36894226E-27
-s.ds.r2.b1:1               py           4     0.00000000E+00    -5.77412622E-16     3.33405336E-29
-call:      54   Penalty function =   0.13449754E-14
-call:      59   Penalty function =   0.76789640E-15
-call:      61   Penalty function =   0.74862632E-15
-call:      63   Penalty function =   0.55593797E-15
-call:      65   Penalty function =   0.38718242E-15
-call:      67   Penalty function =   0.30438668E-15
-call:      69   Penalty function =   0.18370473E-15
-call:      75   Penalty function =   0.14898625E-15
-call:      77   Penalty function =   0.12171840E-15
-call:      79   Penalty function =   0.11953671E-15
-call:      81   Penalty function =   0.11015135E-15
-call:      85   Penalty function =   0.10516397E-15
-call:      87   Penalty function =   0.10045560E-15
-call:      89   Penalty function =   0.99964655E-16
-call:      91   Penalty function =   0.97092124E-16
-call:      97   Penalty function =   0.95180673E-16
- call limit
-call:     102   Penalty function =   0.94796826E-16
-Initial Penalty Function =   0.94796826E-16
-
-
-call:       6   Penalty function =   0.23117453E-28
-call:      11   Penalty function =   0.29183028E-37
- ++++++++++ LMDIF ended: converged successfully
-call:      11   Penalty function =   0.29183028E-37
-e.ds.l5.b1:1               x            4     0.00000000E+00    -3.58125404E-22     1.28253805E-43
-e.ds.l5.b1:1               px           4     0.00000000E+00     1.02979189E-23     1.06047133E-44
-e.ds.l5.b1:1               y            4     0.00000000E+00     1.63326298E-19     2.66754796E-38
-e.ds.l5.b1:1               py           4     0.00000000E+00     5.00740432E-21     2.50740981E-39
-
-
-Final Penalty Function =   2.91830283e-38
-
-
-
-
-
-Variable                 Final Value  Initial Value Lower Limit  Upper Limit 
---------------------------------------------------------------------------------
-acbh14.l5b1              -1.66070e-10  2.03711e-23 -8.00000e-05  8.00000e-05
-acbh12.l5b1              -1.82662e-10 -1.08508e-21 -8.00000e-05  8.00000e-05
-acbv15.l5b1              -2.24342e-08 -2.79613e-08 -8.00000e-05  8.00000e-05
-acbv13.l5b1               1.51710e-05  1.51716e-05 -8.00000e-05  8.00000e-05
-
-END MATCH SUMMARY
-
-VARIABLE "TAR" SET TO   2.91830283e-38
-START MATCHING
-
-number of sequences: 1
-sequence name: lhcb1
-entry name: betx
-number of entries: 1
-entry value: 100.000000
-entry name: bety
-number of entries: 1
-entry value: 100.000000
-entry name: x
-number of entries: 1
-entry value: 0.000000
-entry name: px
-number of entries: 1
-entry value: 0.000000
-entry name: y
-number of entries: 1
-entry value: 0.000000
-entry name: py
-number of entries: 1
-entry value: 0.000000
-number of variables:    4
-user given constraints: 4
-total constraints:      4
-
-START SIMPLEX:
-
-number of variables:    4
-user given constraints: 4
-total constraints:      4
-
-START LMDIF:
-
-
-MATCH SUMMARY
-
-Node_Name                  Constraint   Type  Target Value       Final Value        Penalty
---------------------------------------------------------------------------------------------------
-
-
-Final Penalty Function =   1.02444717e-37
-
-
-
-
-
-Variable                 Final Value  Initial Value Lower Limit  Upper Limit 
---------------------------------------------------------------------------------
-acbh13.r5b1              -1.65458e-10 -8.99736e-22 -8.00000e-05  8.00000e-05
-acbh15.r5b1               7.28193e-11 -3.10543e-25 -8.00000e-05  8.00000e-05
-acbv12.r5b1               1.75445e-05  1.75433e-05 -8.00000e-05  8.00000e-05
-acbv14.r5b1               8.87926e-08  7.26661e-08 -8.00000e-05  8.00000e-05
-
-END MATCH SUMMARY
-
-VARIABLE "TAR" SET TO   1.02444717e-37
-START MATCHING
-
-number of variables:    2
-user given constraints: 2
-total constraints:      2
-
-START LMDIF:
-
-
-MATCH SUMMARY
-
-Node_Name                  Constraint   Type  Target Value       Final Value        Penalty
---------------------------------------------------------------------------------------------------
-
-
-Final Penalty Function =   4.83969321e-23
-
-
-
-
-
-Variable                 Final Value  Initial Value Lower Limit  Upper Limit 
---------------------------------------------------------------------------------
-kqtf.b1                   3.11675e-05  0.00000e+00 -1.00000e+20  1.00000e+20
-kqtd.b1                  -3.01643e-05  0.00000e+00 -1.00000e+20  1.00000e+20
-
-END MATCH SUMMARY
-
-VARIABLE "TAR" SET TO   4.83969321e-23
-START MATCHING
-
-number of variables:    2
-user given constraints: 2
-total constraints:      2
-
-START LMDIF:
-
-
-MATCH SUMMARY
-
-Node_Name                  Constraint   Type  Target Value       Final Value        Penalty
---------------------------------------------------------------------------------------------------
-
-
-Final Penalty Function =   8.02744387e-14
-
-
-
-
-
-Variable                 Final Value  Initial Value Lower Limit  Upper Limit 
---------------------------------------------------------------------------------
-ksf.b1                    5.62843e-03  0.00000e+00 -1.00000e+20  1.00000e+20
-ksd.b1                   -8.75186e-03  0.00000e+00 -1.00000e+20  1.00000e+20
-
-END MATCH SUMMARY
-
-VARIABLE "TAR" SET TO   8.02744387e-14
-START MATCHING
-
-number of variables:    4
-user given constraints: 2
-total constraints:      4
-
-START LMDIF:
-
-
-MATCH SUMMARY
-
-Node_Name                  Constraint   Type  Target Value       Final Value        Penalty
---------------------------------------------------------------------------------------------------
-
-
-Final Penalty Function =   8.02744387e-14
-
-
-
-
-
-Variable                 Final Value  Initial Value Lower Limit  Upper Limit 
---------------------------------------------------------------------------------
-ksf.b1                    5.62843e-03  5.62843e-03 -1.00000e+20  1.00000e+20
-ksd.b1                   -8.75186e-03 -8.75186e-03 -1.00000e+20  1.00000e+20
-kqtf.b1                   3.11675e-05  3.11675e-05 -1.00000e+20  1.00000e+20
-kqtd.b1                  -3.01643e-05 -3.01643e-05 -1.00000e+20  1.00000e+20
-
-END MATCH SUMMARY
-
-VARIABLE "TAR" SET TO   8.02744387e-14
-enter Twiss module
-call:      54   Penalty function =   0.24882400E-12
-call:      56   Penalty function =   0.20770153E-12
-call:      60   Penalty function =   0.20459406E-12
-call:      62   Penalty function =   0.13090606E-12
-call:      66   Penalty function =   0.97763917E-13
-call:      69   Penalty function =   0.28622799E-13
-call:      76   Penalty function =   0.18227094E-13
-call:      80   Penalty function =   0.17547710E-13
-call:      82   Penalty function =   0.12297986E-13
-call:      86   Penalty function =   0.10891328E-13
-call:      90   Penalty function =   0.10454158E-13
-call:      92   Penalty function =   0.96168154E-14
-call:      94   Penalty function =   0.92804352E-14
-call:      96   Penalty function =   0.91046399E-14
-call:     100   Penalty function =   0.89853542E-14
-call:     102   Penalty function =   0.88553782E-14
- call limit
-call:     103   Penalty function =   0.87398024E-14
-Initial Penalty Function =   0.87398024E-14
-
-
-call:       6   Penalty function =   0.49729761E-26
-call:      11   Penalty function =   0.10244472E-36
- ++++++++++ LMDIF ended: converged successfully
-call:      11   Penalty function =   0.10244472E-36
-s.ds.r6.b1:1               x            4     0.00000000E+00     3.04440666E-20     9.26841192E-40
-s.ds.r6.b1:1               px           4     0.00000000E+00    -1.18662495E-21     1.40807878E-40
-s.ds.r6.b1:1               y            4     0.00000000E+00     2.68514327E-19     7.20999439E-38
-s.ds.r6.b1:1               py           4     0.00000000E+00    -1.71105593E-20     2.92771238E-38
-Initial Penalty Function =   0.25651169E-02
-
-
-call:       4   Penalty function =   0.11663112E-08
-call:       7   Penalty function =   0.24674996E-18
-call:      10   Penalty function =   0.48396932E-22
- ++++++++++ LMDIF ended: converged successfully
-call:      10   Penalty function =   0.48396932E-22
-Global constraint:         q1           4     6.23160000E+01     6.23160000E+01     3.31245850E-23
-Global constraint:         q2           4     6.03210000E+01     6.03210000E+01     1.52723471E-23
-Initial Penalty Function =   0.29757365E+02
-
-
-call:       4   Penalty function =   0.21523414E+02
-call:       7   Penalty function =   0.90615717E+01
-call:      10   Penalty function =   0.48816055E-04
-call:      13   Penalty function =   0.10938506E-09
-call:      16   Penalty function =   0.82120895E-12
-call:      19   Penalty function =   0.80274439E-13
- ++++++++++ LMDIF ended: converged without success
-call:      23   Penalty function =   0.80274439E-13
-Global constraint:         dq1          4     5.00000000E+00     4.99999973E+00     7.46607094E-14
-Global constraint:         dq2          4     5.00000000E+00     5.00000007E+00     5.61372934E-15
-Initial Penalty Function =   0.80274439E-13
-
-
- ++++++++++ LMDIF ended: converged without success
-call:       7   Penalty function =   0.80274439E-13
-Global constraint:         dq1          4     5.00000000E+00     4.99999973E+00     7.46607094E-14
-Global constraint:         dq2          4     5.00000000E+00     5.00000007E+00     5.61372934E-15
-Global constraint:         q1           4     6.23160000E+01     6.23160000E+01     3.23117427E-25
-Global constraint:         q2           4     6.03210000E+01     6.03210000E+01     7.67908760E-24
-  
-iteration:   1 error:   4.386708E-05 deltap:   0.000000E+00
-orbit:   2.865465E-06 -1.338428E-07  3.338801E-07  5.293207E-09  5.655242E-06  4.720466E-06
-  
-iteration:   2 error:   3.265449E-06 deltap:   0.000000E+00
-orbit:  -1.606618E-06 -4.939474E-08  7.643279E-08  2.967925E-09  5.912829E-06  4.722370E-06
-  
-iteration:   3 error:   3.078179E-06 deltap:   0.000000E+00
-orbit:   2.782000E-06 -1.317156E-07  1.905373E-07  3.929475E-09  5.696403E-06  4.720587E-06
-  
-iteration:   4 error:   3.086394E-06 deltap:   0.000000E+00
-orbit:  -1.645956E-06 -4.875404E-08  1.557967E-07  3.630902E-09  5.904574E-06  4.722372E-06
-  
-iteration:   5 error:   3.122669E-06 deltap:   0.000000E+00
-orbit:   2.843804E-06 -1.328562E-07  1.535180E-07  3.629697E-09  5.696740E-06  4.720566E-06
-  
-iteration:   6 error:   3.171107E-06 deltap:   0.000000E+00
-orbit:  -1.712603E-06 -4.750873E-08  1.724893E-07  3.764758E-09  5.906502E-06  4.722397E-06
-
-++++++ table: summ
-
-length orbit5 alfa gammatr 
-26658.8832 -0 0.00034858194831545 53.560861464583 
-
-q1 dq1 betxmax dxmax 
-62.1837178689619 38.0685985835066 31304.7238907377 6.9942341065933 
-
-dxrms xcomax xcorms q2 
-1.88524789009356 0.0143912597161703 0.00198323048097711 60.2308674190598 
-
-dq2 betymax dymax dyrms 
-6.0342459990292 56469.6081848224 1.48794481284883 0.213951212089054 
-
-ycomax ycorms deltap synch_1 
-0.0146445542454485 0.00196443489815111 0 0 
-
-synch_2 synch_3 synch_4 synch_5 
-0 0 0 0 
-
-synch_6 synch_8 nflips dqmin 
-0 0 0 0.000270446178568048 
-
-dqmin_phase 
-0.0714000958040377 
-  ++++++++++++++++++++++++++++
-  +   c6t version 2.0        +
-  ++++++++++++++++++++++++++++
-
-Reference radius set to : 0.017000
-
-total block length: 26658.883200
-
-c6t terminated - total number of elements: 23967
-                    field errors    MAD-X: 0
-                    field errors SixTrack: 0
-                 alignment errors   MAD-X: 8
-                alignment errors SixTrack: 8
-                          sequence length: 26658.883200 [m]
-enter Twiss module
-  
-iteration:   7 error:   3.215731E-06 deltap:   0.000000E+00
-orbit:   2.912446E-06 -1.341412E-07  1.459174E-07  3.568987E-09  5.694082E-06  4.720539E-06
-  
-iteration:   8 error:   3.267223E-06 deltap:   0.000000E+00
-orbit:  -1.782338E-06 -4.620257E-08  1.760827E-07  3.793256E-09  5.909531E-06  4.722425E-06
-  
-iteration:   9 error:   3.313471E-06 deltap:   0.000000E+00
-orbit:   2.983444E-06 -1.354709E-07  1.440602E-07  3.554338E-09  5.690938E-06  4.720510E-06
-  
-iteration:  10 error:   3.366717E-06 deltap:   0.000000E+00
-orbit:  -1.854259E-06 -4.485532E-08  1.771716E-07  3.801676E-09  5.912822E-06  4.722454E-06
-  
-iteration:  11 error:   3.414294E-06 deltap:   0.000000E+00
-orbit:   3.056607E-06 -1.368411E-07  1.432884E-07  3.548390E-09  5.687629E-06  4.720481E-06
-  
-iteration:  12 error:   3.469252E-06 deltap:   0.000000E+00
-orbit:  -1.928343E-06 -4.346750E-08  1.777944E-07  3.806354E-09  5.916244E-06  4.722484E-06
-  
-iteration:  13 error:   3.518155E-06 deltap:   0.000000E+00
-orbit:   3.131966E-06 -1.382526E-07  1.427111E-07  3.544006E-09  5.684207E-06  4.720450E-06
-  
-iteration:  14 error:   3.574864E-06 deltap:   0.000000E+00
-orbit:  -2.004639E-06 -4.203824E-08  1.783405E-07  3.810407E-09  5.919775E-06  4.722514E-06
-  
-iteration:  15 error:   3.625117E-06 deltap:   0.000000E+00
-orbit:   3.209577E-06 -1.397061E-07  1.421579E-07  3.539820E-09  5.680681E-06  4.720419E-06
-  
-iteration:  16 error:   3.683632E-06 deltap:   0.000000E+00
-orbit:  -2.083207E-06 -4.056642E-08  1.788847E-07  3.814434E-09  5.923413E-06  4.722546E-06
-  
-iteration:  17 error:   3.735265E-06 deltap:   0.000000E+00
-orbit:   3.289502E-06 -1.412031E-07  1.415959E-07  3.535571E-09  5.677051E-06  4.720387E-06
-  
-iteration:  18 error:   3.795643E-06 deltap:   0.000000E+00
-orbit:  -2.164110E-06 -3.905087E-08  1.794414E-07  3.818549E-09  5.927161E-06  4.722578E-06
-  
-iteration:  19 error:   3.848687E-06 deltap:   0.000000E+00
-orbit:   3.371805E-06 -1.427445E-07  1.410185E-07  3.531205E-09  5.673314E-06  4.720354E-06
-  
-iteration:  20 error:   3.910987E-06 deltap:   0.000000E+00
-orbit:  -2.247411E-06 -3.749037E-08  1.800137E-07  3.822779E-09  5.931021E-06  4.722612E-06
-Closed orbit did not converge in  20 iterations
-  
-iteration:   1 error:   4.386708E-05 deltap:   0.000000E+00
-orbit:   2.865465E-06 -1.338428E-07  3.338801E-07  5.293207E-09  5.655242E-06  4.720466E-06
-  
-iteration:   2 error:   3.265449E-06 deltap:   0.000000E+00
-orbit:  -1.606618E-06 -4.939474E-08  7.643279E-08  2.967925E-09  5.912829E-06  4.722370E-06
-  
-iteration:   3 error:   3.078179E-06 deltap:   0.000000E+00
-orbit:   2.782000E-06 -1.317156E-07  1.905373E-07  3.929475E-09  5.696403E-06  4.720587E-06
-  
-iteration:   4 error:   3.086394E-06 deltap:   0.000000E+00
-orbit:  -1.645956E-06 -4.875404E-08  1.557967E-07  3.630902E-09  5.904574E-06  4.722372E-06
-  
-iteration:   5 error:   3.122669E-06 deltap:   0.000000E+00
-orbit:   2.843804E-06 -1.328562E-07  1.535180E-07  3.629697E-09  5.696740E-06  4.720566E-06
-  
-iteration:   6 error:   3.171107E-06 deltap:   0.000000E+00
-orbit:  -1.712603E-06 -4.750873E-08  1.724893E-07  3.764758E-09  5.906502E-06  4.722397E-06
-  
-iteration:   7 error:   3.215731E-06 deltap:   0.000000E+00
-orbit:   2.912446E-06 -1.341412E-07  1.459174E-07  3.568987E-09  5.694082E-06  4.720539E-06
-  
-iteration:   8 error:   3.267223E-06 deltap:   0.000000E+00
-orbit:  -1.782338E-06 -4.620257E-08  1.760827E-07  3.793256E-09  5.909531E-06  4.722425E-06
-  
-iteration:   9 error:   3.313471E-06 deltap:   0.000000E+00
-orbit:   2.983444E-06 -1.354709E-07  1.440602E-07  3.554338E-09  5.690938E-06  4.720510E-06
-  
-iteration:  10 error:   3.366717E-06 deltap:   0.000000E+00
-orbit:  -1.854259E-06 -4.485532E-08  1.771716E-07  3.801676E-09  5.912822E-06  4.722454E-06
-  
-iteration:  11 error:   3.414294E-06 deltap:   0.000000E+00
-orbit:   3.056607E-06 -1.368411E-07  1.432884E-07  3.548390E-09  5.687629E-06  4.720481E-06
-  
-iteration:  12 error:   3.469252E-06 deltap:   0.000000E+00
-orbit:  -1.928343E-06 -4.346750E-08  1.777944E-07  3.806354E-09  5.916244E-06  4.722484E-06
-  
-iteration:  13 error:   3.518155E-06 deltap:   0.000000E+00
-
-++++++ table: summ
-
-length orbit5 alfa gammatr 
-26658.8832 -0 0.00034858194831545 53.560861464583 
-
-q1 dq1 betxmax dxmax 
-62.1837178689619 38.0685985835066 31304.7238907377 6.9942341065933 
-
-dxrms xcomax xcorms q2 
-1.88524789009356 0.0143912597161703 0.00198323048097711 60.2308674190598 
-
-dq2 betymax dymax dyrms 
-6.0342459990292 56469.6081848224 1.48794481284883 0.213951212089054 
-
-ycomax ycorms deltap synch_1 
-0.0146445542454485 0.00196443489815111 0 0 
-
-synch_2 synch_3 synch_4 synch_5 
-0 0 0 0 
-
-synch_6 synch_8 nflips dqmin 
-0 0 0 0.000270446178568048 
-
-dqmin_phase 
-0.0714000958040377 
 IP beta test against knobs passed!
 IP separation test against knobs passed!
 IP beta test against knobs passed!
@@ -14119,186 +12200,99 @@ Done Beam 1
 Done Beam 2
 IP beta test against knobs passed!
 
- Start coupling correction...
-
- Start coupling measurement...
-
- Done coupling measurement.
-
- Done coupling correction.
-Warning! on_bb_switch not present
-Start building xtrack line...
-Converting sequence "lhcb1":  0%     Converting sequence "lhcb1":  0%     Converting sequence "lhcb1":  1%     Converting sequence "lhcb1":  1%     Converting sequence "lhcb1":  2%     Converting sequence "lhcb1":  2%     Converting sequence "lhcb1":  3%     Converting sequence "lhcb1":  3%     Converting sequence "lhcb1":  3%     Converting sequence "lhcb1":  4%     Converting sequence "lhcb1":  4%     Converting sequence "lhcb1":  5%     Converting sequence "lhcb1":  5%     Converting sequence "lhcb1":  5%     Converting sequence "lhcb1":  6%     Converting sequence "lhcb1":  6%     Converting sequence "lhcb1":  7%     Converting sequence "lhcb1":  7%     Converting sequence "lhcb1":  8%     Converting sequence "lhcb1":  8%     Converting sequence "lhcb1":  8%     Converting sequence "lhcb1":  9%     Converting sequence "lhcb1":  9%     Converting sequence "lhcb1": 10%     Converting sequence "lhcb1": 10%     Converting sequence "lhcb1": 10%     Converting sequence "lhcb1": 11%     Converting sequence "lhcb1": 11%     Converting sequence "lhcb1": 12%     Converting sequence "lhcb1": 12%     Converting sequence "lhcb1": 13%     Converting sequence "lhcb1": 13%     Converting sequence "lhcb1": 13%     Converting sequence "lhcb1": 14%     Converting sequence "lhcb1": 14%     Converting sequence "lhcb1": 15%     Converting sequence "lhcb1": 15%     Converting sequence "lhcb1": 15%     Converting sequence "lhcb1": 16%     Converting sequence "lhcb1": 16%     Converting sequence "lhcb1": 17%     Converting sequence "lhcb1": 17%     Converting sequence "lhcb1": 18%     Converting sequence "lhcb1": 18%     Converting sequence "lhcb1": 18%     Converting sequence "lhcb1": 19%     Converting sequence "lhcb1": 19%     Converting sequence "lhcb1": 20%     Converting sequence "lhcb1": 20%     Converting sequence "lhcb1": 20%     Converting sequence "lhcb1": 21%     Converting sequence "lhcb1": 21%     Converting sequence "lhcb1": 22%     Converting sequence "lhcb1": 22%     Converting sequence "lhcb1": 23%     Converting sequence "lhcb1": 23%     Converting sequence "lhcb1": 23%     Converting sequence "lhcb1": 24%     Converting sequence "lhcb1": 24%     Converting sequence "lhcb1": 25%     Converting sequence "lhcb1": 25%     Converting sequence "lhcb1": 25%     Converting sequence "lhcb1": 26%     Converting sequence "lhcb1": 26%     Converting sequence "lhcb1": 27%     Converting sequence "lhcb1": 27%     Converting sequence "lhcb1": 28%     Converting sequence "lhcb1": 28%     Converting sequence "lhcb1": 28%     Converting sequence "lhcb1": 29%     Converting sequence "lhcb1": 29%     Converting sequence "lhcb1": 30%     Converting sequence "lhcb1": 30%     Converting sequence "lhcb1": 30%     Converting sequence "lhcb1": 31%     Converting sequence "lhcb1": 31%     Converting sequence "lhcb1": 32%     Converting sequence "lhcb1": 32%     Converting sequence "lhcb1": 33%     Converting sequence "lhcb1": 33%     Converting sequence "lhcb1": 33%     Converting sequence "lhcb1": 34%     Converting sequence "lhcb1": 34%     Converting sequence "lhcb1": 35%     Converting sequence "lhcb1": 35%     Converting sequence "lhcb1": 35%     Converting sequence "lhcb1": 36%     Converting sequence "lhcb1": 36%     Converting sequence "lhcb1": 37%     Converting sequence "lhcb1": 37%     Converting sequence "lhcb1": 38%     Converting sequence "lhcb1": 38%     Converting sequence "lhcb1": 38%     Converting sequence "lhcb1": 39%     Converting sequence "lhcb1": 39%     Converting sequence "lhcb1": 40%     Converting sequence "lhcb1": 40%     Converting sequence "lhcb1": 40%     Converting sequence "lhcb1": 41%     Converting sequence "lhcb1": 41%     Converting sequence "lhcb1": 42%     Converting sequence "lhcb1": 42%     Converting sequence "lhcb1": 43%     Converting sequence "lhcb1": 43%     Converting sequence "lhcb1": 43%     Converting sequence "lhcb1": 44%     Converting sequence "lhcb1": 44%     Converting sequence "lhcb1": 45%     Converting sequence "lhcb1": 45%     Converting sequence "lhcb1": 45%     Converting sequence "lhcb1": 46%     Converting sequence "lhcb1": 46%     Converting sequence "lhcb1": 47%     Converting sequence "lhcb1": 47%     Converting sequence "lhcb1": 48%     Converting sequence "lhcb1": 48%     Converting sequence "lhcb1": 48%     Converting sequence "lhcb1": 49%     Converting sequence "lhcb1": 49%     Converting sequence "lhcb1": 50%     Converting sequence "lhcb1": 50%     Converting sequence "lhcb1": 50%     Converting sequence "lhcb1": 51%     Converting sequence "lhcb1": 51%     Converting sequence "lhcb1": 52%     Converting sequence "lhcb1": 52%     Converting sequence "lhcb1": 53%     Converting sequence "lhcb1": 53%     Converting sequence "lhcb1": 53%     Converting sequence "lhcb1": 54%     Converting sequence "lhcb1": 54%     Converting sequence "lhcb1": 55%     Converting sequence "lhcb1": 55%     Converting sequence "lhcb1": 55%     Converting sequence "lhcb1": 56%     Converting sequence "lhcb1": 56%     Converting sequence "lhcb1": 57%     Converting sequence "lhcb1": 57%     Converting sequence "lhcb1": 58%     Converting sequence "lhcb1": 58%     Converting sequence "lhcb1": 58%     Converting sequence "lhcb1": 59%     Converting sequence "lhcb1": 59%     Converting sequence "lhcb1": 60%     Converting sequence "lhcb1": 60%     Converting sequence "lhcb1": 60%     Converting sequence "lhcb1": 61%     Converting sequence "lhcb1": 61%     Converting sequence "lhcb1": 62%     Converting sequence "lhcb1": 62%     Converting sequence "lhcb1": 63%     Converting sequence "lhcb1": 63%     Converting sequence "lhcb1": 63%     Converting sequence "lhcb1": 64%     Converting sequence "lhcb1": 64%     Converting sequence "lhcb1": 65%     Converting sequence "lhcb1": 65%     Converting sequence "lhcb1": 65%     Converting sequence "lhcb1": 66%     Converting sequence "lhcb1": 66%     Converting sequence "lhcb1": 67%     Converting sequence "lhcb1": 67%     Converting sequence "lhcb1": 68%     Converting sequence "lhcb1": 68%     Converting sequence "lhcb1": 68%     Converting sequence "lhcb1": 69%     Converting sequence "lhcb1": 69%     Converting sequence "lhcb1": 70%     Converting sequence "lhcb1": 70%     Converting sequence "lhcb1": 71%     Converting sequence "lhcb1": 71%     Converting sequence "lhcb1": 71%     Converting sequence "lhcb1": 72%     Converting sequence "lhcb1": 72%     Converting sequence "lhcb1": 73%     Converting sequence "lhcb1": 73%     Converting sequence "lhcb1": 73%     Converting sequence "lhcb1": 74%     Converting sequence "lhcb1": 74%     Converting sequence "lhcb1": 75%     Converting sequence "lhcb1": 75%     Converting sequence "lhcb1": 76%     Converting sequence "lhcb1": 76%     Converting sequence "lhcb1": 76%     Converting sequence "lhcb1": 77%     Converting sequence "lhcb1": 77%     Converting sequence "lhcb1": 78%     Converting sequence "lhcb1": 78%     Converting sequence "lhcb1": 78%     Converting sequence "lhcb1": 79%     Converting sequence "lhcb1": 79%     Converting sequence "lhcb1": 80%     Converting sequence "lhcb1": 80%     Converting sequence "lhcb1": 81%     Converting sequence "lhcb1": 81%     Converting sequence "lhcb1": 81%     Converting sequence "lhcb1": 82%     Converting sequence "lhcb1": 82%     Converting sequence "lhcb1": 83%     Converting sequence "lhcb1": 83%     Converting sequence "lhcb1": 83%     Converting sequence "lhcb1": 84%     Converting sequence "lhcb1": 84%     Converting sequence "lhcb1": 85%     Converting sequence "lhcb1": 85%     Converting sequence "lhcb1": 86%     Converting sequence "lhcb1": 86%     Converting sequence "lhcb1": 86%     Converting sequence "lhcb1": 87%     Converting sequence "lhcb1": 87%     Converting sequence "lhcb1": 88%     Converting sequence "lhcb1": 88%     Converting sequence "lhcb1": 88%     Converting sequence "lhcb1": 89%     Converting sequence "lhcb1": 89%     Converting sequence "lhcb1": 90%     Converting sequence "lhcb1": 90%     Converting sequence "lhcb1": 91%     Converting sequence "lhcb1": 91%     Converting sequence "lhcb1": 91%     Converting sequence "lhcb1": 92%     Converting sequence "lhcb1": 92%     Converting sequence "lhcb1": 93%     Converting sequence "lhcb1": 93%     Converting sequence "lhcb1": 93%     Converting sequence "lhcb1": 94%     Converting sequence "lhcb1": 94%     Converting sequence "lhcb1": 95%     Converting sequence "lhcb1": 95%     Converting sequence "lhcb1": 96%     Converting sequence "lhcb1": 96%     Converting sequence "lhcb1": 96%     Converting sequence "lhcb1": 97%     Converting sequence "lhcb1": 97%     Converting sequence "lhcb1": 98%     Converting sequence "lhcb1": 98%     Converting sequence "lhcb1": 98%     Converting sequence "lhcb1": 99%     Converting sequence "lhcb1": 99%     Converting sequence "lhcb1": 100%     enter Twiss module
-
 ++++++ table: summ
 
 length orbit5 alfa gammatr 
-26658.8832 -5.80062620972617e-06 0.000348509814857251 53.5664041065722 
+26658.8832 -0 0.00034845473765051 53.5706373268763 
 
 q1 dq1 betxmax dxmax 
-62.3160254778102 5.59013028802454 44258.4223095795 4.29291400772306 
+62.3100359241365 1.59447025098656 43286.8951478789 2.72117868009755 
 
 dxrms xcomax xcorms q2 
-1.59309661719058 0.0143705425704461 0.00198071964325722 60.3210142250373 
+1.43266270000272 0 0 60.3200004610329 
 
 dq2 betymax dymax dyrms 
-4.77603912047309 43065.7145173556 0.937208632346022 0.166493547842195 
+1.99806029861311 43281.2944633562 -0 0 
 
 ycomax ycorms deltap synch_1 
-0.0146417231278074 0.0019641153601347 0 0 
+0 0 0 0 
 
 synch_2 synch_3 synch_4 synch_5 
 0 0 0 0 
 
 synch_6 synch_8 nflips dqmin 
-0 0 0 3.77078068859542e-05 
+0 0 0 0 
 
 dqmin_phase 
--0.224643305734435 
+0 
+refbetxip1b1       = 0.17996637476312 ;
+refbetyip1b1       = 0.0750000000001998 ;
+refbetxip5b1       = 0.0749903196361145 ;
+refbetyip5b1       = 0.179999999993825 ;
+refbetxip2b1       = 10.0018927911664 ;
+refbetyip2b1       = 10.000000001361 ;
+refbetxip8b1       = 1.49973983490392 ;
+refbetyip8b1       = 1.50000000001372 ;
+refqxb1            = 62.3100359241365 ;
+refqyb1            = 60.3200004610329 ;
+refdqxb1           = 1.59447025098656 ;
+refdqyb1           = 1.99806029861311 ;
+refxip1b1          = 0 ;
+refyip1b1          = 0 ;
+refxip5b1          = 0 ;
+refyip5b1          = 0 ;
+refxip2b1          = 0 ;
+refyip2b1          = 0 ;
+refxip8b1          = 0 ;
+refyip8b1          = 0 ;
+refpxip1b1         = 0 ;
+refpyip1b1         = 0 ;
+refpxip5b1         = 0 ;
+refpyip5b1         = 0 ;
+refpxip2b1         = 0 ;
+refpyip2b1         = 0 ;
+refpxip8b1         = 0 ;
+refpyip8b1         = 0 ;
 enter Twiss module
-orbit:   3.131966E-06 -1.382526E-07  1.427111E-07  3.544006E-09  5.684207E-06  4.720450E-06
-  
-iteration:  14 error:   3.574864E-06 deltap:   0.000000E+00
-orbit:  -2.004639E-06 -4.203824E-08  1.783405E-07  3.810407E-09  5.919775E-06  4.722514E-06
-  
-iteration:  15 error:   3.625117E-06 deltap:   0.000000E+00
-orbit:   3.209577E-06 -1.397061E-07  1.421579E-07  3.539820E-09  5.680681E-06  4.720419E-06
-  
-iteration:  16 error:   3.683632E-06 deltap:   0.000000E+00
-orbit:  -2.083207E-06 -4.056642E-08  1.788847E-07  3.814434E-09  5.923413E-06  4.722546E-06
-  
-iteration:  17 error:   3.735265E-06 deltap:   0.000000E+00
-orbit:   3.289502E-06 -1.412031E-07  1.415959E-07  3.535571E-09  5.677051E-06  4.720387E-06
-  
-iteration:  18 error:   3.795643E-06 deltap:   0.000000E+00
-orbit:  -2.164110E-06 -3.905087E-08  1.794414E-07  3.818549E-09  5.927161E-06  4.722578E-06
-  
-iteration:  19 error:   3.848687E-06 deltap:   0.000000E+00
-orbit:   3.371805E-06 -1.427445E-07  1.410185E-07  3.531205E-09  5.673314E-06  4.720354E-06
-  
-iteration:  20 error:   3.910987E-06 deltap:   0.000000E+00
-orbit:  -2.247411E-06 -3.749037E-08  1.800137E-07  3.822779E-09  5.931021E-06  4.722612E-06
-Closed orbit did not converge in  20 iterations
-  
-iteration:   1 error:   4.386708E-05 deltap:   0.000000E+00
-orbit:   5.816835E-07 -9.048771E-08  1.606177E-07  3.680208E-09  5.800500E-06  4.721458E-06
-  
-iteration:   2 error:   7.296576E-10 deltap:   0.000000E+00
-orbit:   5.813692E-07 -9.047950E-08  1.604840E-07  3.677608E-09  5.800626E-06  4.721475E-06
-  
-iteration:   1 error:   4.386708E-05 deltap:   0.000000E+00
-orbit:   2.865465E-06 -1.338428E-07  3.338801E-07  5.293207E-09  5.655242E-06  4.720466E-06
-  
-iteration:   2 error:   3.265449E-06 deltap:   0.000000E+00
-orbit:  -1.606618E-06 -4.939474E-08  7.643279E-08  2.967925E-09  5.912829E-06  4.722370E-06
-  
-iteration:   3 error:   3.078179E-06 deltap:   0.000000E+00
-orbit:   2.782000E-06 -1.317156E-07  1.905373E-07  3.929475E-09  5.696403E-06  4.720587E-06
-  
-iteration:   4 error:   3.086394E-06 deltap:   0.000000E+00
-orbit:  -1.645956E-06 -4.875404E-08  1.557967E-07  3.630902E-09  5.904574E-06  4.722372E-06
-  
-iteration:   5 error:   3.122669E-06 deltap:   0.000000E+00
-orbit:   2.843804E-06 -1.328562E-07  1.535180E-07  3.629697E-09  5.696740E-06  4.720566E-06
-  
-iteration:   6 error:   3.171107E-06 deltap:   0.000000E+00
-orbit:  -1.712603E-06 -4.750873E-08  1.724893E-07  3.764758E-09  5.906502E-06  4.722397E-06
-  
-iteration:   7 error:   3.215731E-06 deltap:   0.000000E+00
-orbit:   2.912446E-06 -1.341412E-07  1.459174E-07  3.568987E-09  5.694082E-06  4.720539E-06
-  
-iteration:   8 error:   3.267223E-06 deltap:   0.000000E+00
-orbit:  -1.782338E-06 -4.620257E-08  1.760827E-07  3.793256E-09  5.909531E-06  4.722425E-06
-  
-iteration:   9 error:   3.313471E-06 deltap:   0.000000E+00
-orbit:   2.983444E-06 -1.354709E-07  1.440602E-07  3.554338E-09  5.690938E-06  4.720510E-06
-  
-iteration:  10 error:   3.366717E-06 deltap:   0.000000E+00
-orbit:  -1.854259E-06 -4.485532E-08  1.771716E-07  3.801676E-09  5.912822E-06  4.722454E-06
-  
-iteration:  11 error:   3.414294E-06 deltap:   0.000000E+00
-orbit:   3.056607E-06 -1.368411E-07  1.432884E-07  3.548390E-09  5.687629E-06  4.720481E-06
-  
-iteration:  12 error:   3.469252E-06 deltap:   0.000000E+00
-orbit:  -1.928343E-06 -4.346750E-08  1.777944E-07  3.806354E-09  5.916244E-06  4.722484E-06
-  
-iteration:  13 error:   3.518155E-06 deltap:   0.000000E+00
-orbit:   3.131966E-06 -1.382526E-07  1.427111E-07  3.544006E-09  5.684207E-06  4.720450E-06
-  
-iteration:  14 error:   3.574864E-06 deltap:   0.000000E+00
-orbit:  -2.004639E-06 -4.203824E-08  1.783405E-07  3.810407E-09  5.919775E-06  4.722514E-06
-  
-iteration:  15 error:   3.625117E-06 deltap:   0.000000E+00
-orbit:   3.209577E-06 -1.397061E-07  1.421579E-07  3.539820E-09  5.680681E-06  4.720419E-06
-  
-iteration:  16 error:   3.683632E-06 deltap:   0.000000E+00
-orbit:  -2.083207E-06 -4.056642E-08  1.788847E-07  3.814434E-09  5.923413E-06  4.722546E-06
-  
-iteration:  17 error:   3.735265E-06 deltap:   0.000000E+00
-orbit:   3.289502E-06 -1.412031E-07  1.415959E-07  3.535571E-09  5.677051E-06  4.720387E-06
 
 ++++++ table: summ
 
 length orbit5 alfa gammatr 
-26658.8832 -0 0.00034858194831545 53.560861464583 
+26658.8832 -0 0.000348821825732421 53.5424419596345 
 
 q1 dq1 betxmax dxmax 
-62.1837178689619 38.0685985835066 31304.7238907377 6.9942341065933 
+62.3100359329233 1.62515604421292 43286.9073365417 5.80065815019672 
 
 dxrms xcomax xcorms q2 
-1.88524789009356 0.0143912597161703 0.00198323048097711 60.2308674190598 
+1.71140391118863 0.014391255203515 0.00171713514780042 60.3200003667675 
 
 dq2 betymax dymax dyrms 
-6.0342459990292 56469.6081848224 1.48794481284883 0.213951212089054 
+3.08767999322286 43281.2837806382 8.25583785391599 1.34459253704836 
 
 ycomax ycorms deltap synch_1 
-0.0146445542454485 0.00196443489815111 0 0 
+0.0146445515484033 0.00187919320758668 0 0 
 
 synch_2 synch_3 synch_4 synch_5 
 0 0 0 0 
 
 synch_6 synch_8 nflips dqmin 
-0 0 0 0.000270446178568048 
+0 0 0 1.42387395588087e-15 
 
 dqmin_phase 
-0.0714000958040377 
-
-Done building xtrack.
-Compiling ContextCpu kernels...
-Done compiling ContextCpu kernels.
-Warning! The use of `Tracker.find_closed_orbit` is deprecated. Please use `Line.find_closed_orbit` (for more info see https://github.com/xsuite/xsuite/issues/322)
-Warning! The use of `Tracker.elements` is deprecated. Please use `Line.elements` (for more info see https://github.com/xsuite/xsuite/issues/322)
-Compiling ContextCpu kernels...
-Done compiling ContextCpu kernels.
-Compiling ContextCpu kernels...
-Done compiling ContextCpu kernels.
-Compiling ContextCpu kernels...
-Done compiling ContextCpu kernels.
-Compiling ContextCpu kernels...
-Done compiling ContextCpu kernels.
-Compiling ContextCpu kernels...
-Done compiling ContextCpu kernels.
-Compiling ContextCpu kernels...
-Done compiling ContextCpu kernels.
-Compiling ContextCpu kernels...
-Done compiling ContextCpu kernels.
-Compiling ContextCpu kernels...
-Done compiling ContextCpu kernels.
-Warning! The use of `Tracker.compute_one_turn_matrix_finite_differences` is deprecated. Please use `Line.compute_one_turn_matrix_finite_differences` (for more info see https://github.com/xsuite/xsuite/issues/322)
-
-  Number of warnings: 116
-116 in C and 0 in Fortran
-
-  ++++++++++++++++++++++++++++++++++++++++++++
-  +          MAD-X finished normally         +
-  ++++++++++++++++++++++++++++++++++++++++++++
-  
-iteration:  18 error:   3.795643E-06 deltap:   0.000000E+00
-orbit:  -2.164110E-06 -3.905087E-08  1.794414E-07  3.818549E-09  5.927161E-06  4.722578E-06
-  
-iteration:  19 error:   3.848687E-06 deltap:   0.000000E+00
-orbit:   3.371805E-06 -1.427445E-07  1.410185E-07  3.531205E-09  5.673314E-06  4.720354E-06
-  
-iteration:  20 error:   3.910987E-06 deltap:   0.000000E+00
-orbit:  -2.247411E-06 -3.749037E-08  1.800137E-07  3.822779E-09  5.931021E-06  4.722612E-06
-Closed orbit did not converge in  20 iterations
+-3.03067365446366 
+xnom1              = -9.14424366546394e-10 ;
+xnom2              = -0.000144370523004541 ;
+xnom5              = 1.72279758444491e-09 ;
+xnom8              = -7.28808604744877e-09 ;
+ynom1              = 2.99524676335113e-16 ;
+ynom2              = 2.65311376096048e-15 ;
+ynom5              = 1.04196656863656e-15 ;
+ynom8              = 1.07583324542989e-15 ;
+pxnom1             = 0.000249991556487987 ;
+pxnom2             = 2.90249874945298e-07 ;
+pxnom5             = 3.58286748616512e-09 ;
+pxnom8             = 0.000134986020262117 ;
+pynom1             = 9.40594071734918e-16 ;
+pynom2             = -0.000100000608721939 ;
+pynom5             = 0.000250000000001888 ;
+pynom8             = 1.80973622101346e-06 ;

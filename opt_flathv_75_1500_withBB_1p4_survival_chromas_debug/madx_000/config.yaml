@@ -197,4 +197,4 @@ pars_for_imperfections:
 pars_for_legacy_bb_macros:
   par_b_t_dist: 25.0 # bunch spacing [ns]
   par_n_inside_D1: 5 # n. parasitic encounters inside D1
-log_file: /afs/cern.ch/work/c/cdroin/private/DA_study_for_bologna_cluster/opt_flathv_75_1500_withBB_1p4_survival_chromas_debug/madx_000/tree_maker.log
+log_file: /gpfs/gpfs/gpfs_maestro_home_new/hpc/cdroin/DA_study/opt_flathv_75_1500_withBB_1p4_survival_chromas_debug/madx_000/tree_maker.log

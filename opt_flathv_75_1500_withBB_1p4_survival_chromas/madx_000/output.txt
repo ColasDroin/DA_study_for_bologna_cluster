@@ -3,7 +3,7 @@
   +     MAD-X 5.08.01  (64 bit, Linux)       +
   + Support: mad@cern.ch, http://cern.ch/mad +
   + Release   date: 2022.02.25               +
-  + Execution date: 2023.04.28 15:59:53      +
+  + Execution date: 2023.05.02 17:36:55      +
   ++++++++++++++++++++++++++++++++++++++++++++
 ! 2011 Stephane Fartoukh, macros for building ATS optics
 
@@ -10780,8 +10780,8 @@ dqmin_phase
 @ DQMIN_PHASE      %le  1.65244608287393
 @ TITLE            %08s "no-title"
 @ ORIGIN           %16s "5.08.01 Linux 64"
-@ DATE             %08s "28/04/23"
-@ TIME             %08s "16.00.15"
+@ DATE             %08s "02/05/23"
+@ TIME             %08s "17.37.17"
 * NAME               S BETX BETY ALFX ALFY DX DPX MUX MUY 
 $ %s                 %le %le %le %le %le %le %le %le %le 
  "IP5"               6664.5684327563 0.0749903196360376 0.179999999993823 7.6937458946446e-05 -2.24397404637876e-10 4.38320690726093e-05 -0.00107977466442246 14.9560145480647 14.5366304529184
@@ -10891,8 +10891,8 @@ dqmin_phase
 @ DQMIN_PHASE      %le  2.80719106538706
 @ TITLE            %08s "no-title"
 @ ORIGIN           %16s "5.08.01 Linux 64"
-@ DATE             %08s "28/04/23"
-@ TIME             %08s "16.00.17"
+@ DATE             %08s "02/05/23"
+@ TIME             %08s "17.37.19"
 * NAME               S BETX BETY ALFX ALFY DX DPX MUX MUY 
 $ %s                 %le %le %le %le %le %le %le %le %le 
  "IP5"               6664.8731672437 0.0749989802293465 0.180000000018718 -0.000106799606951811 2.32042789233553e-10 -0.000115145331445911 0.00273578185140835 15.2160133461898 14.4463565438519
@@ -11002,8 +11002,8 @@ dqmin_phase
 @ DQMIN_PHASE      %le  -0.719125937799284
 @ TITLE            %08s "no-title"
 @ ORIGIN           %16s "5.08.01 Linux 64"
-@ DATE             %08s "28/04/23"
-@ TIME             %08s "16.00.20"
+@ DATE             %08s "02/05/23"
+@ TIME             %08s "17.37.22"
 * NAME               S X Y PX PY 
 $ %s                 %le %le %le %le %le 
  "IP5"               6664.5684327563 -1.04898547846751e-07 3.295090090648e-09 6.4396103196012e-09 0.000250073183514608
@@ -11113,8 +11113,8 @@ dqmin_phase
 @ DQMIN_PHASE      %le  -1.3424968046984
 @ TITLE            %08s "no-title"
 @ ORIGIN           %16s "5.08.01 Linux 64"
-@ DATE             %08s "28/04/23"
-@ TIME             %08s "16.00.22"
+@ DATE             %08s "02/05/23"
+@ TIME             %08s "17.37.24"
 * NAME               S X Y PX PY 
 $ %s                 %le %le %le %le %le 
  "IP5"               6664.8731672437 1.19609395554637e-08 7.46526883929968e-09 -2.2633351968595e-07 -0.000250081744054046
@@ -14048,141 +14048,7 @@ IP beta test against knobs passed!
  Done coupling correction.
 Warning! on_bb_switch not present
 Start building xtrack line...
-Converting sequence "lhcb1":  0%     Converting sequence "lhcb1":  0%     Converting sequence "lhcb1":  1%     Converting sequence "lhcb1":  1%     Converting sequence "lhcb1":  2%     Converting sequence "lhcb1":  2%     Converting sequence "lhcb1":  3%     Converting sequence "lhcb1":  3%     Converting sequence "lhcb1":  3%     Converting sequence "lhcb1":  4%     Converting sequence "lhcb1":  4%     Converting sequence "lhcb1":  5%     Converting sequence "lhcb1":  5%     Converting sequence "lhcb1":  5%     Converting sequence "lhcb1":  6%     Converting sequence "lhcb1":  6%     Converting sequence "lhcb1":  7%     Converting sequence "lhcb1":  7%     Converting sequence "lhcb1":  8%     Converting sequence "lhcb1":  8%     Converting sequence "lhcb1":  8%     Converting sequence "lhcb1":  9%     Converting sequence "lhcb1":  9%     Converting sequence "lhcb1": 10%     Converting sequence "lhcb1": 10%     Converting sequence "lhcb1": 10%     Converting sequence "lhcb1": 11%     Converting sequence "lhcb1": 11%     Converting sequence "lhcb1": 12%     Converting sequence "lhcb1": 12%     Converting sequence "lhcb1": 13%     Converting sequence "lhcb1": 13%     Converting sequence "lhcb1": 13%     Converting sequence "lhcb1": 14%     Converting sequence "lhcb1": 14%     Converting sequence "lhcb1": 15%     Converting sequence "lhcb1": 15%     Converting sequence "lhcb1": 15%     Converting sequence "lhcb1": 16%     Converting sequence "lhcb1": 16%     Converting sequence "lhcb1": 17%     Converting sequence "lhcb1": 17%     Converting sequence "lhcb1": 18%     Converting sequence "lhcb1": 18%     Converting sequence "lhcb1": 18%     Converting sequence "lhcb1": 19%     Converting sequence "lhcb1": 19%     Converting sequence "lhcb1": 20%     Converting sequence "lhcb1": 20%     Converting sequence "lhcb1": 20%     Converting sequence "lhcb1": 21%     Converting sequence "lhcb1": 21%     Converting sequence "lhcb1": 22%     Converting sequence "lhcb1": 22%     Converting sequence "lhcb1": 23%     Converting sequence "lhcb1": 23%     Converting sequence "lhcb1": 23%     Converting sequence "lhcb1": 24%     Converting sequence "lhcb1": 24%     Converting sequence "lhcb1": 25%     Converting sequence "lhcb1": 25%     Converting sequence "lhcb1": 25%     Converting sequence "lhcb1": 26%     Converting sequence "lhcb1": 26%     Converting sequence "lhcb1": 27%     Converting sequence "lhcb1": 27%     Converting sequence "lhcb1": 28%     Converting sequence "lhcb1": 28%     Converting sequence "lhcb1": 28%     Converting sequence "lhcb1": 29%     Converting sequence "lhcb1": 29%     Converting sequence "lhcb1": 30%     Converting sequence "lhcb1": 30%     Converting sequence "lhcb1": 30%     Converting sequence "lhcb1": 31%     Converting sequence "lhcb1": 31%     Converting sequence "lhcb1": 32%     Converting sequence "lhcb1": 32%     Converting sequence "lhcb1": 33%     Converting sequence "lhcb1": 33%     Converting sequence "lhcb1": 33%     Converting sequence "lhcb1": 34%     Converting sequence "lhcb1": 34%     Converting sequence "lhcb1": 35%     Converting sequence "lhcb1": 35%     Converting sequence "lhcb1": 35%     Converting sequence "lhcb1": 36%     Converting sequence "lhcb1": 36%     Converting sequence "lhcb1": 37%     Converting sequence "lhcb1": 37%     Converting sequence "lhcb1": 38%     Converting sequence "lhcb1": 38%     Converting sequence "lhcb1": 38%     Converting sequence "lhcb1": 39%     Converting sequence "lhcb1": 39%     Converting sequence "lhcb1": 40%     Converting sequence "lhcb1": 40%     Converting sequence "lhcb1": 40%     Converting sequence "lhcb1": 41%     Converting sequence "lhcb1": 41%     Converting sequence "lhcb1": 42%     Converting sequence "lhcb1": 42%     Converting sequence "lhcb1": 43%     Converting sequence "lhcb1": 43%     Converting sequence "lhcb1": 43%     Converting sequence "lhcb1": 44%     Converting sequence "lhcb1": 44%     Converting sequence "lhcb1": 45%     Converting sequence "lhcb1": 45%     Converting sequence "lhcb1": 45%     Converting sequence "lhcb1": 46%     Converting sequence "lhcb1": 46%     Converting sequence "lhcb1": 47%     Converting sequence "lhcb1": 47%     Converting sequence "lhcb1": 48%     Converting sequence "lhcb1": 48%     Converting sequence "lhcb1": 48%     Converting sequence "lhcb1": 49%     Converting sequence "lhcb1": 49%     Converting sequence "lhcb1": 50%     Converting sequence "lhcb1": 50%     Converting sequence "lhcb1": 50%     Converting sequence "lhcb1": 51%     Converting sequence "lhcb1": 51%     Converting sequence "lhcb1": 52%     Converting sequence "lhcb1": 52%     Converting sequence "lhcb1": 53%     Converting sequence "lhcb1": 53%     Converting sequence "lhcb1": 53%     Converting sequence "lhcb1": 54%     Converting sequence "lhcb1": 54%     Converting sequence "lhcb1": 55%     Converting sequence "lhcb1": 55%     Converting sequence "lhcb1": 55%     Converting sequence "lhcb1": 56%     Converting sequence "lhcb1": 56%     Converting sequence "lhcb1": 57%     Converting sequence "lhcb1": 57%     Converting sequence "lhcb1": 58%     Converting sequence "lhcb1": 58%     Converting sequence "lhcb1": 58%     Converting sequence "lhcb1": 59%     Converting sequence "lhcb1": 59%     Converting sequence "lhcb1": 60%     Converting sequence "lhcb1": 60%     Converting sequence "lhcb1": 60%     Converting sequence "lhcb1": 61%     Converting sequence "lhcb1": 61%     Converting sequence "lhcb1": 62%     Converting sequence "lhcb1": 62%     Converting sequence "lhcb1": 63%     Converting sequence "lhcb1": 63%     Converting sequence "lhcb1": 63%     Converting sequence "lhcb1": 64%     Converting sequence "lhcb1": 64%     Converting sequence "lhcb1": 65%     Converting sequence "lhcb1": 65%     Converting sequence "lhcb1": 65%     Converting sequence "lhcb1": 66%     Converting sequence "lhcb1": 66%     Converting sequence "lhcb1": 67%     Converting sequence "lhcb1": 67%     Converting sequence "lhcb1": 68%     Converting sequence "lhcb1": 68%     Converting sequence "lhcb1": 68%     Converting sequence "lhcb1": 69%     Converting sequence "lhcb1": 69%     Converting sequence "lhcb1": 70%     Converting sequence "lhcb1": 70%     Converting sequence "lhcb1": 70%     Converting sequence "lhcb1": 71%     Converting sequence "lhcb1": 71%     Converting sequence "lhcb1": 72%     Converting sequence "lhcb1": 72%     Converting sequence "lhcb1": 73%     Converting sequence "lhcb1": 73%     Converting sequence "lhcb1": 73%     Converting sequence "lhcb1": 74%     Converting sequence "lhcb1": 74%     Converting sequence "lhcb1": 75%     Converting sequence "lhcb1": 75%     Converting sequence "lhcb1": 76%     Converting sequence "lhcb1": 76%     Converting sequence "lhcb1": 76%     Converting sequence "lhcb1": 77%     Converting sequence "lhcb1": 77%     Converting sequence "lhcb1": 78%     Converting sequence "lhcb1": 78%     Converting sequence "lhcb1": 78%     Converting sequence "lhcb1": 79%     Converting sequence "lhcb1": 79%     Converting sequence "lhcb1": 80%     Converting sequence "lhcb1": 80%     Converting sequence "lhcb1": 81%     Converting sequence "lhcb1": 81%     Converting sequence "lhcb1": 81%     Converting sequence "lhcb1": 82%     Converting sequence "lhcb1": 82%     Converting sequence "lhcb1": 83%     Converting sequence "lhcb1": 83%     Converting sequence "lhcb1": 83%     Converting sequence "lhcb1": 84%     Converting sequence "lhcb1": 84%     Converting sequence "lhcb1": 85%     Converting sequence "lhcb1": 85%     Converting sequence "lhcb1": 86%     Converting sequence "lhcb1": 86%     Converting sequence "lhcb1": 86%     Converting sequence "lhcb1": 87%     Converting sequence "lhcb1": 87%     Converting sequence "lhcb1": 88%     Converting sequence "lhcb1": 88%     Converting sequence "lhcb1": 88%     Converting sequence "lhcb1": 89%     Converting sequence "lhcb1": 89%     Converting sequence "lhcb1": 90%     Converting sequence "lhcb1": 90%     Converting sequence "lhcb1": 91%     Converting sequence "lhcb1": 91%     Converting sequence "lhcb1": 91%     Converting sequence "lhcb1": 92%     Converting sequence "lhcb1": 92%     Converting sequence "lhcb1": 93%     Converting sequence "lhcb1": 93%     Converting sequence "lhcb1": 93%     Converting sequence "lhcb1": 94%     Converting sequence "lhcb1": 94%     Converting sequence "lhcb1": 95%     Converting sequence "lhcb1": 95%     Converting sequence "lhcb1": 96%     Converting sequence "lhcb1": 96%     Converting sequence "lhcb1": 96%     Converting sequence "lhcb1": 97%     Converting sequence "lhcb1": 97%     Converting sequence "lhcb1": 98%     Converting sequence "lhcb1": 98%     Converting sequence "lhcb1": 98%     Converting sequence "lhcb1": 99%     Converting sequence "lhcb1": 99%     Converting sequence "lhcb1": 100%     enter Twiss module
-
-++++++ table: summ
-
-length orbit5 alfa gammatr 
-26658.8832 -5.80062620679698e-06 0.000348509814857238 53.5664041065732 
-
-q1 dq1 betxmax dxmax 
-62.3160254778118 5.59013045221094 44258.4223095709 4.29291400768243 
-
-dxrms xcomax xcorms q2 
-1.59205370914045 0.0143705425704536 0.00197354611451693 60.321014225033 
-
-dq2 betymax dymax dyrms 
-4.77603806766159 43065.7145173977 0.937208632820612 0.167091082261271 
-
-ycomax ycorms deltap synch_1 
-0.0146417231270591 0.00197277953068462 0 0 
-
-synch_2 synch_3 synch_4 synch_5 
-0 0 0 0 
-
-synch_6 synch_8 nflips dqmin 
-0 0 0 3.77078330748644e-05 
-
-dqmin_phase 
--0.224643165858615 
-enter Twiss module
-orbit:  -3.909656E-06 -6.324571E-09  1.820161E-07  3.829124E-09  5.996459E-06  4.723283E-06
-  
-iteration:   9 error:   6.298828E-06 deltap:   0.000000E+00
-orbit:   5.519380E-06 -1.830005E-07  1.360802E-07  3.500969E-09  5.588551E-06  4.719487E-06
-  
-iteration:  10 error:   6.924389E-06 deltap:   0.000000E+00
-orbit:  -4.829644E-06  1.091563E-08  1.864824E-07  3.860134E-09  6.036946E-06  4.723653E-06
-  
-iteration:  11 error:   7.589288E-06 deltap:   0.000000E+00
-orbit:   6.531625E-06 -2.019651E-07  1.309529E-07  3.463225E-09  5.545460E-06  4.719079E-06
-  
-iteration:  12 error:   8.343647E-06 deltap:   0.000000E+00
-orbit:  -5.934897E-06  3.162811E-08  1.917076E-07  3.896070E-09  6.085775E-06  4.724097E-06
-  
-iteration:  13 error:   9.139686E-06 deltap:   0.000000E+00
-orbit:   7.747653E-06 -2.247472E-07  1.247930E-07  3.417633E-09  5.493851E-06  4.718589E-06
-  
-iteration:  14 error:   1.004855E-05 deltap:   0.000000E+00
-orbit:  -7.260400E-06  5.646878E-08  1.979169E-07  3.938413E-09  6.144605E-06  4.724630E-06
-  
-iteration:  15 error:   1.099914E-05 deltap:   0.000000E+00
-orbit:   9.205654E-06 -2.520617E-07  1.173578E-07  3.362225E-09  5.432192E-06  4.718001E-06
-  
-iteration:  16 error:   1.209259E-05 deltap:   0.000000E+00
-orbit:  -8.846061E-06  8.618593E-08  2.052797E-07  3.988110E-09  6.215379E-06  4.725268E-06
-  
-iteration:  17 error:   1.322368E-05 deltap:   0.000000E+00
-orbit:   1.094885E-05 -2.847180E-07  1.083918E-07  3.294869E-09  5.358773E-06  4.717298E-06
-  
-iteration:  18 error:   1.453630E-05 deltap:   0.000000E+00
-orbit:  -1.073614E-05  1.216096E-07  2.139648E-07  4.045998E-09  6.300329E-06  4.726027E-06
-  
-iteration:  19 error:   1.587548E-05 deltap:   0.000000E+00
-orbit:   1.302453E-05 -3.236013E-07  9.760642E-08  3.213086E-09  5.271753E-06  4.716461E-06
-  
-iteration:  20 error:   1.744589E-05 deltap:   0.000000E+00
-orbit:  -1.297754E-05  1.636199E-07  2.241356E-07  4.112731E-09  6.401942E-06  4.726927E-06
-Closed orbit did not converge in  20 iterations
-  
-iteration:   1 error:   4.386708E-05 deltap:   0.000000E+00
-orbit:   5.816835E-07 -9.048771E-08  1.606176E-07  3.680207E-09  5.800500E-06  4.721458E-06
-  
-iteration:   2 error:   7.296582E-10 deltap:   0.000000E+00
-orbit:   5.813692E-07 -9.047950E-08  1.604839E-07  3.677607E-09  5.800626E-06  4.721475E-06
-  
-iteration:   1 error:   4.386708E-05 deltap:   0.000000E+00
-orbit:   3.065692E-06 -1.376050E-07  3.064647E-07  5.063165E-09  5.653022E-06  4.720384E-06
-  
-iteration:   2 error:   3.547344E-06 deltap:   0.000000E+00
-orbit:  -2.008482E-06 -4.185044E-08  1.046739E-07  3.198329E-09  5.923686E-06  4.722531E-06
-  
-iteration:   3 error:   3.643302E-06 deltap:   0.000000E+00
-orbit:   3.403808E-06 -1.433812E-07  1.715709E-07  3.778209E-09  5.676154E-06  4.720336E-06
-  
-iteration:   4 error:   3.959966E-06 deltap:   0.000000E+00
-orbit:  -2.510453E-06 -3.254108E-08  1.667756E-07  3.714622E-09  5.935960E-06  4.722721E-06
-  
-iteration:   5 error:   4.336643E-06 deltap:   0.000000E+00
-orbit:   3.979201E-06 -1.541447E-07  1.466897E-07  3.580218E-09  5.654100E-06  4.720107E-06
-  
-iteration:   6 error:   4.764881E-06 deltap:   0.000000E+00
-orbit:  -3.144854E-06 -2.065626E-08  1.774835E-07  3.796759E-09  5.962971E-06  4.722975E-06
-  
-iteration:   7 error:   5.226097E-06 deltap:   0.000000E+00
-orbit:   4.677903E-06 -1.672349E-07  1.405917E-07  3.534166E-09  5.624444E-06  4.719826E-06
-  
-iteration:   8 error:   5.744520E-06 deltap:   0.000000E+00
-orbit:  -3.909656E-06 -6.324571E-09  1.820161E-07  3.829124E-09  5.996459E-06  4.723283E-06
-  
-iteration:   9 error:   6.298828E-06 deltap:   0.000000E+00
-orbit:   5.519380E-06 -1.830005E-07  1.360802E-07  3.500969E-09  5.588551E-06  4.719487E-06
-  
-iteration:  10 error:   6.924389E-06 deltap:   0.000000E+00
-orbit:  -4.829644E-06  1.091563E-08  1.864824E-07  3.860134E-09  6.036946E-06  4.723653E-06
-  
-iteration:  11 error:   7.589288E-06 deltap:   0.000000E+00
-orbit:   6.531625E-06 -2.019651E-07  1.309529E-07  3.463225E-09  5.545460E-06  4.719079E-06
-  
-iteration:  12 error:   8.343647E-06 deltap:   0.000000E+00
-orbit:  -5.934897E-06  3.162811E-08  1.917076E-07  3.896070E-09  6.085775E-06  4.724097E-06
-
-++++++ table: summ
-
-length orbit5 alfa gammatr 
-26658.8832 -0 0.000348586512254841 53.5605108352313 
-
-q1 dq1 betxmax dxmax 
-62.1795249136046 57.698106914875 30962.1922779246 7.19399639515981 
-
-dxrms xcomax xcorms q2 
-1.91044523668875 0.0143912597161777 0.00197604415663133 60.2409381763198 
-
-dq2 betymax dymax dyrms 
-4.95912008255402 53633.1533331174 1.38821979552002 0.204520234995434 
-
-ycomax ycorms deltap synch_1 
-0.014644554245452 0.00197310125942941 0 0 
-
-synch_2 synch_3 synch_4 synch_5 
-0 0 0 0 
-
-synch_6 synch_8 nflips dqmin 
-0 0 0 0.000328892472062888 
-
-dqmin_phase 
-0.0786100200851028 
-
+Converting sequence "lhcb1":  0%     Converting sequence "lhcb1":  0%     Converting sequence "lhcb1":  1%     Converting sequence "lhcb1":  1%     Converting sequence "lhcb1":  2%     Converting sequence "lhcb1":  2%     Converting sequence "lhcb1":  3%     Converting sequence "lhcb1":  3%     Converting sequence "lhcb1":  3%     Converting sequence "lhcb1":  4%     Converting sequence "lhcb1":  4%     Converting sequence "lhcb1":  5%     Converting sequence "lhcb1":  5%     Converting sequence "lhcb1":  5%     Converting sequence "lhcb1":  6%     Converting sequence "lhcb1":  6%     Converting sequence "lhcb1":  7%     Converting sequence "lhcb1":  7%     Converting sequence "lhcb1":  8%     Converting sequence "lhcb1":  8%     Converting sequence "lhcb1":  8%     Converting sequence "lhcb1":  9%     Converting sequence "lhcb1":  9%     Converting sequence "lhcb1": 10%     Converting sequence "lhcb1": 10%     Converting sequence "lhcb1": 10%     Converting sequence "lhcb1": 11%     Converting sequence "lhcb1": 11%     Converting sequence "lhcb1": 12%     Converting sequence "lhcb1": 12%     Converting sequence "lhcb1": 13%     Converting sequence "lhcb1": 13%     Converting sequence "lhcb1": 13%     Converting sequence "lhcb1": 14%     Converting sequence "lhcb1": 14%     Converting sequence "lhcb1": 15%     Converting sequence "lhcb1": 15%     Converting sequence "lhcb1": 15%     Converting sequence "lhcb1": 16%     Converting sequence "lhcb1": 16%     Converting sequence "lhcb1": 17%     Converting sequence "lhcb1": 17%     Converting sequence "lhcb1": 18%     Converting sequence "lhcb1": 18%     Converting sequence "lhcb1": 18%     Converting sequence "lhcb1": 19%     Converting sequence "lhcb1": 19%     Converting sequence "lhcb1": 20%     Converting sequence "lhcb1": 20%     Converting sequence "lhcb1": 20%     Converting sequence "lhcb1": 21%     Converting sequence "lhcb1": 21%     Converting sequence "lhcb1": 22%     Converting sequence "lhcb1": 22%     Converting sequence "lhcb1": 23%     Converting sequence "lhcb1": 23%     Converting sequence "lhcb1": 23%     Converting sequence "lhcb1": 24%     Converting sequence "lhcb1": 24%     Converting sequence "lhcb1": 25%     Converting sequence "lhcb1": 25%     Converting sequence "lhcb1": 25%     Converting sequence "lhcb1": 26%     Converting sequence "lhcb1": 26%     Converting sequence "lhcb1": 27%     Converting sequence "lhcb1": 27%     Converting sequence "lhcb1": 28%     Converting sequence "lhcb1": 28%     Converting sequence "lhcb1": 28%     Converting sequence "lhcb1": 29%     Converting sequence "lhcb1": 29%     Converting sequence "lhcb1": 30%     Converting sequence "lhcb1": 30%     Converting sequence "lhcb1": 30%     Converting sequence "lhcb1": 31%     Converting sequence "lhcb1": 31%     Converting sequence "lhcb1": 32%     Converting sequence "lhcb1": 32%     Converting sequence "lhcb1": 33%     Converting sequence "lhcb1": 33%     Converting sequence "lhcb1": 33%     Converting sequence "lhcb1": 34%     Converting sequence "lhcb1": 34%     Converting sequence "lhcb1": 35%     Converting sequence "lhcb1": 35%     Converting sequence "lhcb1": 35%     Converting sequence "lhcb1": 36%     Converting sequence "lhcb1": 36%     Converting sequence "lhcb1": 37%     Converting sequence "lhcb1": 37%     Converting sequence "lhcb1": 38%     Converting sequence "lhcb1": 38%     Converting sequence "lhcb1": 38%     Converting sequence "lhcb1": 39%     Converting sequence "lhcb1": 39%     Converting sequence "lhcb1": 40%     Converting sequence "lhcb1": 40%     Converting sequence "lhcb1": 40%     Converting sequence "lhcb1": 41%     Converting sequence "lhcb1": 41%     Converting sequence "lhcb1": 42%     Converting sequence "lhcb1": 42%     Converting sequence "lhcb1": 43%     Converting sequence "lhcb1": 43%     Converting sequence "lhcb1": 43%     Converting sequence "lhcb1": 44%     Converting sequence "lhcb1": 44%     Converting sequence "lhcb1": 45%     Converting sequence "lhcb1": 45%     Converting sequence "lhcb1": 45%     Converting sequence "lhcb1": 46%     Converting sequence "lhcb1": 46%     Converting sequence "lhcb1": 47%     Converting sequence "lhcb1": 47%     Converting sequence "lhcb1": 48%     Converting sequence "lhcb1": 48%     Converting sequence "lhcb1": 48%     Converting sequence "lhcb1": 49%     Converting sequence "lhcb1": 49%     Converting sequence "lhcb1": 50%     Converting sequence "lhcb1": 50%     Converting sequence "lhcb1": 50%     Converting sequence "lhcb1": 51%     Converting sequence "lhcb1": 51%     Converting sequence "lhcb1": 52%     Converting sequence "lhcb1": 52%     Converting sequence "lhcb1": 53%     Converting sequence "lhcb1": 53%     Converting sequence "lhcb1": 53%     Converting sequence "lhcb1": 54%     Converting sequence "lhcb1": 54%     Converting sequence "lhcb1": 55%     Converting sequence "lhcb1": 55%     Converting sequence "lhcb1": 55%     Converting sequence "lhcb1": 56%     Converting sequence "lhcb1": 56%     Converting sequence "lhcb1": 57%     Converting sequence "lhcb1": 57%     Converting sequence "lhcb1": 58%     Converting sequence "lhcb1": 58%     Converting sequence "lhcb1": 58%     Converting sequence "lhcb1": 59%     Converting sequence "lhcb1": 59%     Converting sequence "lhcb1": 60%     Converting sequence "lhcb1": 60%     Converting sequence "lhcb1": 60%     Converting sequence "lhcb1": 61%     Converting sequence "lhcb1": 61%     Converting sequence "lhcb1": 62%     Converting sequence "lhcb1": 62%     Converting sequence "lhcb1": 63%     Converting sequence "lhcb1": 63%     Converting sequence "lhcb1": 63%     Converting sequence "lhcb1": 64%     Converting sequence "lhcb1": 64%     Converting sequence "lhcb1": 65%     Converting sequence "lhcb1": 65%     Converting sequence "lhcb1": 65%     Converting sequence "lhcb1": 66%     Converting sequence "lhcb1": 66%     Converting sequence "lhcb1": 67%     Converting sequence "lhcb1": 67%     Converting sequence "lhcb1": 68%     Converting sequence "lhcb1": 68%     Converting sequence "lhcb1": 68%     Converting sequence "lhcb1": 69%     Converting sequence "lhcb1": 69%     Converting sequence "lhcb1": 70%     Converting sequence "lhcb1": 70%     Converting sequence "lhcb1": 70%     Converting sequence "lhcb1": 71%     Converting sequence "lhcb1": 71%     Converting sequence "lhcb1": 72%     Converting sequence "lhcb1": 72%     Converting sequence "lhcb1": 73%     Converting sequence "lhcb1": 73%     Converting sequence "lhcb1": 73%     Converting sequence "lhcb1": 74%     Converting sequence "lhcb1": 74%     Converting sequence "lhcb1": 75%     Converting sequence "lhcb1": 75%     Converting sequence "lhcb1": 76%     Converting sequence "lhcb1": 76%     Converting sequence "lhcb1": 76%     Converting sequence "lhcb1": 77%     Converting sequence "lhcb1": 77%     Converting sequence "lhcb1": 78%     Converting sequence "lhcb1": 78%     Converting sequence "lhcb1": 78%     Converting sequence "lhcb1": 79%     Converting sequence "lhcb1": 79%     Converting sequence "lhcb1": 80%     Converting sequence "lhcb1": 80%     Converting sequence "lhcb1": 81%     Converting sequence "lhcb1": 81%     Converting sequence "lhcb1": 81%     Converting sequence "lhcb1": 82%     Converting sequence "lhcb1": 82%     Converting sequence "lhcb1": 83%     Converting sequence "lhcb1": 83%     Converting sequence "lhcb1": 83%     Converting sequence "lhcb1": 84%     Converting sequence "lhcb1": 84%     Converting sequence "lhcb1": 85%     Converting sequence "lhcb1": 85%     Converting sequence "lhcb1": 86%     Converting sequence "lhcb1": 86%     Converting sequence "lhcb1": 86%     Converting sequence "lhcb1": 87%     Converting sequence "lhcb1": 87%     Converting sequence "lhcb1": 88%     Converting sequence "lhcb1": 88%     Converting sequence "lhcb1": 88%     Converting sequence "lhcb1": 89%     Converting sequence "lhcb1": 89%     Converting sequence "lhcb1": 90%     Converting sequence "lhcb1": 90%     Converting sequence "lhcb1": 91%     Converting sequence "lhcb1": 91%     Converting sequence "lhcb1": 91%     Converting sequence "lhcb1": 92%     Converting sequence "lhcb1": 92%     Converting sequence "lhcb1": 93%     Converting sequence "lhcb1": 93%     Converting sequence "lhcb1": 93%     Converting sequence "lhcb1": 94%     Converting sequence "lhcb1": 94%     Converting sequence "lhcb1": 95%     Converting sequence "lhcb1": 95%     Converting sequence "lhcb1": 96%     Converting sequence "lhcb1": 96%     Converting sequence "lhcb1": 96%     Converting sequence "lhcb1": 97%     Converting sequence "lhcb1": 97%     Converting sequence "lhcb1": 98%     Converting sequence "lhcb1": 98%     Converting sequence "lhcb1": 98%     Converting sequence "lhcb1": 99%     Converting sequence "lhcb1": 99%     Converting sequence "lhcb1": 100%     
 Done building xtrack.
 Compiling ContextCpu kernels...
 Done compiling ContextCpu kernels.
@@ -14212,6 +14078,19 @@ Warning! The use of `Tracker.compute_one_turn_matrix_finite_differences` is depr
   ++++++++++++++++++++++++++++++++++++++++++++
   +          MAD-X finished normally         +
   ++++++++++++++++++++++++++++++++++++++++++++
+orbit:  -3.909656E-06 -6.324571E-09  1.820161E-07  3.829124E-09  5.996459E-06  4.723283E-06
+  
+iteration:   9 error:   6.298828E-06 deltap:   0.000000E+00
+orbit:   5.519380E-06 -1.830005E-07  1.360802E-07  3.500969E-09  5.588551E-06  4.719487E-06
+  
+iteration:  10 error:   6.924389E-06 deltap:   0.000000E+00
+orbit:  -4.829644E-06  1.091563E-08  1.864824E-07  3.860134E-09  6.036946E-06  4.723653E-06
+  
+iteration:  11 error:   7.589288E-06 deltap:   0.000000E+00
+orbit:   6.531625E-06 -2.019651E-07  1.309529E-07  3.463225E-09  5.545460E-06  4.719079E-06
+  
+iteration:  12 error:   8.343647E-06 deltap:   0.000000E+00
+orbit:  -5.934897E-06  3.162811E-08  1.917076E-07  3.896070E-09  6.085775E-06  4.724097E-06
   
 iteration:  13 error:   9.139686E-06 deltap:   0.000000E+00
 orbit:   7.747653E-06 -2.247472E-07  1.247930E-07  3.417633E-09  5.493851E-06  4.718589E-06
