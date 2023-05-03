@@ -16,5 +16,5 @@ Rebuild tracker data
 Compiling ContextCpu kernels...
 Done compiling ContextCpu kernels.
 Warning! The use of `Tracker.track` is deprecated. Please use `Line.track` (for more info see https://github.com/xsuite/xsuite/issues/322)
-Elapsed time: 559.1962842941284 s
-Elapsed time per particle per turn: 5.886276676780299 us
+Elapsed time: 14763.456221580505 s
+Elapsed time per particle per turn: 155.40480233242639 us
