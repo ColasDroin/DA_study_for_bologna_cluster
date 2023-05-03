@@ -27,7 +27,11 @@ if tree_maker is not None:
 r_min = 2
 r_max = 10
 # radial_list = np.linspace(r_min, r_max, 16*(r_max-r_min), endpoint=False)
-radial_list = [x for x in np.linspace(r_min, r_max, 2 * 16 * (r_max - r_min), endpoint=False) if x>=4 and x<=9]
+radial_list = [
+    x
+    for x in np.linspace(r_min, r_max, 2 * 16 * (r_max - r_min), endpoint=False)
+    if x >= 4 and x <= 9
+]
 
 n_angles = 5
 
@@ -42,7 +46,7 @@ particle_list = [
     (particle_id, ii[0], ii[1])
     for particle_id, ii in enumerate(itertools.product(radial_list, theta_list))
 ]
-particle_list = list(np.array_split(particle_list, 100))
+particle_list = list(np.array_split(particle_list, 50))
 
 distributions_folder = "./particles"
 os.makedirs(distributions_folder, exist_ok=True)
