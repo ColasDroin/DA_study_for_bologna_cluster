@@ -24,9 +24,14 @@ if tree_maker is not None:
     tree_maker.tag_json.tag_it(configuration["log_file"], "started")
 
 # tracking scans
-r_min = 4
-r_max = 9
-radial_list = np.linspace(r_min, r_max, 2 * 16 * (r_max - r_min), endpoint=False)
+r_min = 2
+r_max = 10
+# radial_list = np.linspace(r_min, r_max, 16*(r_max-r_min), endpoint=False)
+radial_list = [
+    x
+    for x in np.linspace(r_min, r_max, 2 * 16 * (r_max - r_min), endpoint=False)
+    if x >= 4 and x <= 9
+]
 
 n_angles = 5
 

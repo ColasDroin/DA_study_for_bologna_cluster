@@ -1,38 +1,29 @@
 rm: cannot remove ‘temp’: No such file or directory
 bash: customization.bash: No such file or directory
-GC Warning: Repeated allocation of very large block (appr. size 192512):
-	May lead to memory leak and poor performance
-Traceback (most recent call last):
-  File "/gpfs/gpfs/gpfs_maestro_home_new/hpc/cdroin/DA_study/opt_flathv_75_1500_withBB_1p4_survival_chromas/madx_001/000_pymask.py", line 442, in <module>
-    mad_track.input("call, file='modules/submodule_04_1b_save_references.madx';")
-  File "/home/HPC/cdroin/DA_study/miniconda/lib/python3.10/site-packages/cpymad/madx.py", line 306, in input
-    return self._libmadx.input(text)
-  File "/home/HPC/cdroin/DA_study/miniconda/lib/python3.10/site-packages/minrpc/client.py", line 159, in DeferredMethod
-    return self.__client._request('function_call', self.__module,
-  File "/home/HPC/cdroin/DA_study/miniconda/lib/python3.10/site-packages/minrpc/client.py", line 107, in _request
-    response = self._communicate((kind, args))
-  File "/home/HPC/cdroin/DA_study/miniconda/lib/python3.10/site-packages/minrpc/client.py", line 117, in _communicate
-    return self._conn.recv()
-  File "/home/HPC/cdroin/DA_study/miniconda/lib/python3.10/site-packages/minrpc/connection.py", line 50, in recv
-    header = read(self._recv, HEADER.size)
-  File "/home/HPC/cdroin/DA_study/miniconda/lib/python3.10/site-packages/minrpc/connection.py", line 83, in read
-    part = file.read(size)
-KeyboardInterrupt
-Traceback (most recent call last):
-  File "/home/HPC/cdroin/DA_study/miniconda/lib/python3.10/runpy.py", line 196, in _run_module_as_main
-    return _run_code(code, main_globals, None,
-  File "/home/HPC/cdroin/DA_study/miniconda/lib/python3.10/runpy.py", line 86, in _run_code
-    exec(code, run_globals)
-  File "/home/HPC/cdroin/DA_study/miniconda/lib/python3.10/site-packages/minrpc/service.py", line 120, in <module>
-    Service.stdio_main(sys.argv[1:])
-  File "/home/HPC/cdroin/DA_study/miniconda/lib/python3.10/site-packages/minrpc/service.py", line 38, in stdio_main
-    svc.run()
-  File "/home/HPC/cdroin/DA_study/miniconda/lib/python3.10/site-packages/minrpc/service.py", line 53, in run
-    while self._communicate():
-  File "/home/HPC/cdroin/DA_study/miniconda/lib/python3.10/site-packages/minrpc/service.py", line 74, in _communicate
-    return self._dispatch(request)
-  File "/home/HPC/cdroin/DA_study/miniconda/lib/python3.10/site-packages/minrpc/service.py", line 85, in _dispatch
-    response = handler(*args)
-  File "/home/HPC/cdroin/DA_study/miniconda/lib/python3.10/site-packages/minrpc/service.py", line 103, in _dispatch_function_call
-    return function(*args, **kwargs)
-KeyboardInterrupt
+rm: cannot remove ‘fc.*’: No such file or directory
+mv: ‘fc.2’ and ‘./fc.2’ are the same file
+mv: ‘fc.3’ and ‘./fc.3’ are the same file
+mv: ‘fc.34’ and ‘./fc.34’ are the same file
+mv: ‘fc.3.aux’ and ‘./fc.3.aux’ are the same file
+mv: ‘fc.8’ and ‘./fc.8’ are the same file
+6dd33cc687ac45259b8bc53a1c2e7218.c:4355:0: warning: "_GNU_SOURCE" redefined [enabled by default]
+ #  define _GNU_SOURCE // enable GNU libc NAN extension if possible
+ ^
+In file included from 6dd33cc687ac45259b8bc53a1c2e7218.c:50:0:
+/home/HPC/cdroin/DA_study/miniconda/include/python3.10/pyconfig.h:1621:0: note: this is the location of the previous definition
+ #define _GNU_SOURCE 1
+ ^
+cfc6569d39504d44a79ee4146a3eefea.c:3662:0: warning: "_GNU_SOURCE" redefined [enabled by default]
+ #  define _GNU_SOURCE // enable GNU libc NAN extension if possible
+ ^
+In file included from cfc6569d39504d44a79ee4146a3eefea.c:50:0:
+/home/HPC/cdroin/DA_study/miniconda/include/python3.10/pyconfig.h:1621:0: note: this is the location of the previous definition
+ #define _GNU_SOURCE 1
+ ^
+75ed12a4dd174f2381b23c7de49ec4c5.c:5658:0: warning: "_GNU_SOURCE" redefined [enabled by default]
+ #  define _GNU_SOURCE // enable GNU libc NAN extension if possible
+ ^
+In file included from 75ed12a4dd174f2381b23c7de49ec4c5.c:50:0:
+/home/HPC/cdroin/DA_study/miniconda/include/python3.10/pyconfig.h:1621:0: note: this is the location of the previous definition
+ #define _GNU_SOURCE 1
+ ^

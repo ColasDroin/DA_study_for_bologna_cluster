@@ -1,45 +1,29 @@
 rm: cannot remove ‘temp’: No such file or directory
 bash: customization.bash: No such file or directory
-GC Warning: Repeated allocation of very large block (appr. size 192512):
-	May lead to memory leak and poor performance
-GC Warning: Repeated allocation of very large block (appr. size 192512):
-	May lead to memory leak and poor performance
-GC Warning: Repeated allocation of very large block (appr. size 192512):
-	May lead to memory leak and poor performance
-GC Warning: Repeated allocation of very large block (appr. size 192512):
-	May lead to memory leak and poor performance
-GC Warning: Repeated allocation of very large block (appr. size 192512):
-	May lead to memory leak and poor performance
 rm: cannot remove ‘fc.*’: No such file or directory
 mv: ‘fc.2’ and ‘./fc.2’ are the same file
 mv: ‘fc.3’ and ‘./fc.3’ are the same file
 mv: ‘fc.34’ and ‘./fc.34’ are the same file
 mv: ‘fc.3.aux’ and ‘./fc.3.aux’ are the same file
 mv: ‘fc.8’ and ‘./fc.8’ are the same file
-d6d3124441a447e2955df1cb127e7a49.c:4355:0: warning: "_GNU_SOURCE" redefined [enabled by default]
+72ac73e2fb5c4181b2f986c1cc5fca0b.c:4355:0: warning: "_GNU_SOURCE" redefined [enabled by default]
  #  define _GNU_SOURCE // enable GNU libc NAN extension if possible
  ^
-In file included from d6d3124441a447e2955df1cb127e7a49.c:50:0:
+In file included from 72ac73e2fb5c4181b2f986c1cc5fca0b.c:50:0:
 /home/HPC/cdroin/DA_study/miniconda/include/python3.10/pyconfig.h:1621:0: note: this is the location of the previous definition
  #define _GNU_SOURCE 1
  ^
-40faa9bc2797410b8eae957e36e98019.c:3662:0: warning: "_GNU_SOURCE" redefined [enabled by default]
+4d770496812c4095a3638ef444edd805.c:3662:0: warning: "_GNU_SOURCE" redefined [enabled by default]
  #  define _GNU_SOURCE // enable GNU libc NAN extension if possible
  ^
-In file included from 40faa9bc2797410b8eae957e36e98019.c:50:0:
+In file included from 4d770496812c4095a3638ef444edd805.c:50:0:
 /home/HPC/cdroin/DA_study/miniconda/include/python3.10/pyconfig.h:1621:0: note: this is the location of the previous definition
  #define _GNU_SOURCE 1
  ^
-bf2887a554554acfa3bd709eacec61fe.c:5658:0: warning: "_GNU_SOURCE" redefined [enabled by default]
+203dea4f2d334ba38f550f4e7e9f6b6a.c:5658:0: warning: "_GNU_SOURCE" redefined [enabled by default]
  #  define _GNU_SOURCE // enable GNU libc NAN extension if possible
  ^
-In file included from bf2887a554554acfa3bd709eacec61fe.c:50:0:
+In file included from 203dea4f2d334ba38f550f4e7e9f6b6a.c:50:0:
 /home/HPC/cdroin/DA_study/miniconda/include/python3.10/pyconfig.h:1621:0: note: this is the location of the previous definition
  #define _GNU_SOURCE 1
  ^
-Traceback (most recent call last):
-  File "/gpfs/gpfs/gpfs_maestro_home_new/hpc/cdroin/DA_study/opt_flathv_75_1500_withBB_1p4_survival_chromas/madx_000/000_pymask.py", line 609, in <module>
-    pm.generate_xsuite_line(
-  File "/gpfs/gpfs/gpfs_maestro_home_new/hpc/cdroin/DA_study/modules/lhcmask/pymask/pymasktools.py", line 468, in generate_xsuite_line
-    ) = xp.compute_linear_normal_form(RR_finite_diffs)
-AttributeError: module 'xpart' has no attribute 'compute_linear_normal_form'

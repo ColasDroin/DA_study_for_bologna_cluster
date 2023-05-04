@@ -75,8 +75,10 @@ particles.particle_id = particle_df.particle_id.values
 # Build tracker #
 #################
 
-tracker = xt.Tracker(line=line)
-
+tracker = xt.Tracker(line=line,
+                    extra_headers=['#define XTRACK_MULTIPOLE_NO_SYNRAD'],
+                    )
+tracker.optimize_for_tracking()
 ############################
 # Save initial coordinates # 
 ############################

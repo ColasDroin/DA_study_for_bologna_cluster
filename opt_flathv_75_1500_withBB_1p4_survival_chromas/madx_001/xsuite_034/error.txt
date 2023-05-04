@@ -1,7 +1,14 @@
-2a266708dd3248b89dab53286dcef240.c:4355:0: warning: "_GNU_SOURCE" redefined [enabled by default]
+7bc55f3cd03949c49cfae711aad9cf1e.c:4356:0: warning: "_GNU_SOURCE" redefined [enabled by default]
  #  define _GNU_SOURCE // enable GNU libc NAN extension if possible
  ^
-In file included from 2a266708dd3248b89dab53286dcef240.c:50:0:
+In file included from 7bc55f3cd03949c49cfae711aad9cf1e.c:50:0:
+/home/HPC/cdroin/DA_study/miniconda/include/python3.10/pyconfig.h:1621:0: note: this is the location of the previous definition
+ #define _GNU_SOURCE 1
+ ^
+ab0ee59e384d47eeb97e542a07a23265.c:4382:0: warning: "_GNU_SOURCE" redefined [enabled by default]
+ #  define _GNU_SOURCE // enable GNU libc NAN extension if possible
+ ^
+In file included from ab0ee59e384d47eeb97e542a07a23265.c:50:0:
 /home/HPC/cdroin/DA_study/miniconda/include/python3.10/pyconfig.h:1621:0: note: this is the location of the previous definition
  #define _GNU_SOURCE 1
  ^

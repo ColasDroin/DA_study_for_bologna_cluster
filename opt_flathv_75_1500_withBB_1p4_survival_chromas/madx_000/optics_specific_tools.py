@@ -25,8 +25,11 @@ def build_sequence(mad, beam, configuration):
         f"""
         ! Get the toolkit
         call,file=
-          "optics_repository/toolkit/macro.madx";
+          "optics_toolkit/macro.madx";
         """
+    )
+    _redefine_crossing_save_disable_restore(mad)
+    mad.input(
         """
         ! Build sequence
         option, -echo,-warn,-info;

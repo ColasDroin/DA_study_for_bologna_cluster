@@ -2,6 +2,19 @@ Loading line from dict:  0%  Loading line from dict:  0%  Loading line from di
 Warning! scale_with_transverse_norm_emitt is deprecated. Use nemitt_x and nemitt_y instead.
 Compiling ContextCpu kernels...
 Done compiling ContextCpu kernels.
+Warning! The use of `Tracker.optimize_for_tracking` is deprecated. Please use `Line.optimize_for_tracking` (for more info see https://github.com/xsuite/xsuite/issues/322)
+Disable xdeps expressions
+Remove markers
+Remove inactive multipoles
+Merge consecutive multipoles
+Remove redundant apertures
+Remove zero length drifts
+Merge consecutive drifts
+Use simple bends
+Use simple quadrupoles
+Rebuild tracker data
+Compiling ContextCpu kernels...
+Done compiling ContextCpu kernels.
 Warning! The use of `Tracker.track` is deprecated. Please use `Line.track` (for more info see https://github.com/xsuite/xsuite/issues/322)
-Elapsed time: 8914.12103843689 s
-Elapsed time per particle per turn: 47.16466157903116 us
+Elapsed time: 25556.74331998825 s
+Elapsed time per particle per turn: 134.50917536835922 us
