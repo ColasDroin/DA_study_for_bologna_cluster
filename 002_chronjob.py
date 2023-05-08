@@ -155,8 +155,11 @@ class cluster:
 # %%
 # Load the tree from a yaml
 if __name__ == "__main__":
+    # root = tree_maker.tree_from_json(
+    #     "tree_maker_opt_flathv_75_1500_withBB_1p4_survival_chromas.json"
+    # )
     root = tree_maker.tree_from_json(
-        "tree_maker_opt_flathv_75_1500_withBB_1p4_survival_chromas.json"
+        "tree_maker_opt_flathv_75_1500_withBB_1p4_survival_convergence.json"
     )
     # root = tree_maker.tree_from_json("tree_maker_opt_flathv_75_1500_withBB_chroma15_1p4.json")
     # root = tree_maker.tree_from_json('tree_maker_opt_flathv_75_1500_withBB_chroma15_1p4.json')
